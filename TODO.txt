@@ -1,0 +1,63 @@
+TODO:
+
+all things in order of enumeration encountered
+
+MONSNO_MAX (495):
+
+snd_tool.c
+- get cry data address (for dex?)
+- get cry data address
+snd_play.c
+- play cries (2 different funcs)
+gra_tool.c
+- spinda in here
+d_nohara.c
+- debug things?
+wifi_p2pmatch.c
+- check if target mon has item in wifi battle
+
+MONSNO_END (493)
+zukanwork.c
+- check if mon is even valid
+- get number of caught pokemon
+- get number of seen pokemon
+- get sinnoh caught pokemon
+- get sinnoh seen pokemon
+- dex data generation for debugging
+pokeicon.c
+- get mon icon #
+- get mon icon pal #
+pokefoot.c
+- get footprint pointer
+poke_tool.c
+- search for least evolved version
+scrcmd.c
+- something dex
+poketch_a02c.c
+- play mon cry on poketch
+pokepark_sys.c
+- read pokepark data
+d_tomoya.c
+- no worries
+d_taya.c
+- no worries
+d_nakahiro.c
+- no worries
+ashiato.c
+- dr. footprint?
+demo_ending.c
+- credits
+poke_test.c
+- the actual dex perhaps?
+d_fight_tool.c
+- no worries
+zkn_glbdata.c
+- literally nothing
+worldtrade_deposit.c
+- world trade something to do with sinnoh
+- sinnoh mon data?  has it been gotten?
+plist_obj.c
+- icon check
+  - looks unused
+imc_poke_obj.c
+- debug shit
