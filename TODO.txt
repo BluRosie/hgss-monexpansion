@@ -1,4 +1,13 @@
+done:
+learnsets
+
 TODO:
+
+make the data
+(mon data, evolutions, tm compatibility, sprites, icons)
+
+
+code edits:
 
 all things in order of enumeration encountered
 
