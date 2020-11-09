@@ -1,10 +1,13 @@
 done:
 learnsets
+sprites
+mon data
+tm compatibility
 
 TODO:
 
 make the data
-(mon data, evolutions, tm compatibility, sprites, icons)
+(evolutions, icons, tutor compatibility)
 
 
 code edits:

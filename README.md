@@ -12,3 +12,8 @@ credits to goodri63 here on github for his GenIVSpriteReplacer which i modified 
 run scripts/makelevelupdata.bat in the root directory
 
 insert narc a033 over top of what was previously there
+
+### make the mon personal data
+run scripts/makemondata.bat in the root directory
+
+insert narc a002 over top of what was previously there
