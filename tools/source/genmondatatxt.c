@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Replaces the numbers n in a text file with the nth line from another text file.  Hex numbers only.
-
 #define BUFF_SIZE 100
 
 int main(int argc, char **argv)

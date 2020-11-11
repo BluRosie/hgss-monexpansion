@@ -1,14 +1,26 @@
 done:
-learnsets
-sprites
-mon data
-tm compatibility
+learnsets/wotbl.narc (a033)
+sprites/pokegra.narc (a004)
+mon data/personal.narc (a002)
+tm compatibility/personal.narc (a002)
+evolution data/evo.narc (a034)
 
 TODO:
 
-make the data
-(evolutions, icons, tutor compatibility)
+find baby table and move tutor shit
 
+egg moves/kowaza.narc (a029)
+baby table/pms.bin (a???)
+move tutor/waza_oshie.bin (a???)
+icons/poke_icon.narc (a020)
+mon anims/pokeanm.narc (a111)
+footprints/pokefoot.narc (a069)
+alt form sprites/otherpoke.narc (a114)
+height order?/height_o.narc (a117)
+mon shadow size/poke_shadow.narc (a135)
+mon shadow x offset/poke_shadow_ofx.narc (a137)
+y axis offsets/poke_yofs.narc (a132)
+friend mon y offset?/height.narc (a005)
 
 code edits:
 
@@ -16,7 +28,7 @@ all things in order of enumeration encountered
 
 MONSNO_MAX (495):
 
-snd_tool.c
+snd_tool.c 
 - get cry data address (for dex?)
 - get cry data address
 snd_play.c

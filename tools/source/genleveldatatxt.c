@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Replaces the numbers n in a text file with the nth line from another text file.  Hex numbers only.
-
 #define BUFF_SIZE 100
 
 int main(int argc, char **argv)
@@ -97,7 +95,7 @@ int main(int argc, char **argv)
         // set up the next mon
         if (elementnum == 0xFFFF)
         {
-            printf("    terminate\n\n");
+            printf("    terminatelearnset\n\n");
             fgets(textfromfile, BUFF_SIZE, monlist);
 
             strtok(textfromfile, "\n");

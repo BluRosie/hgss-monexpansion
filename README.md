@@ -17,3 +17,8 @@ insert narc a033 over top of what was previously there
 run scripts/makemondata.bat in the root directory
 
 insert narc a002 over top of what was previously there
+
+### make the mon evolution data
+run scripts/makeevodata.bat in the root directory
+
+insert narc a034 over top of what was previously there

@@ -1,3 +1,5 @@
+// level up learnset macros
+
 .macro levelup,species
 
 	.if species < 10
@@ -14,12 +16,14 @@
     .halfword (level << 9 | move)
 .endmacro
 
-.macro terminate
+.macro terminatelearnset
     .halfword 0xFFFF
 	
 	.close
 .endmacro
 
+
+// mon data macros
 
 .macro mondata,species
 
@@ -100,6 +104,33 @@
 	.word num2
 	.word num3
 	.word num4
+	
+	.close
+.endmacro
+
+
+// evolution data macros
+
+.macro evodata,species
+
+	.if species < 10
+		.create "a034/evodata_00" + tostring(species),0
+	.elseif species < 100
+		.create "a034/evodata_0" + tostring(species),0
+	.else
+		.create "a034/evodata_" + tostring(species),0
+	.endif
+	
+.endmacro
+
+.macro evolution,method,parameter,species
+	.halfword method
+	.halfword parameter
+	.halfword species
+.endmacro
+
+.macro terminateevodata
+	.halfword 0
 	
 	.close
 .endmacro
