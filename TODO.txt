@@ -21,6 +21,8 @@ mon shadow size/poke_shadow.narc (a135)
 mon shadow x offset/poke_shadow_ofx.narc (a137)
 y axis offsets/poke_yofs.narc (a132)
 friend mon y offset?/height.narc (a005)
+dex stuff
+mon names
 
 code edits:
 
