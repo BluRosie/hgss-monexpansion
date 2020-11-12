@@ -155,3 +155,20 @@
 	
 	.close
 .endmacro
+
+
+// baby mon macro
+
+.macro babymon,species,baby
+	.if species == 0
+		.create "pms.narc",0
+	.endif
+
+	.org (species * 2)
+	
+	.halfword baby
+	
+	.if species == (NUM_OF_MONS - 1)
+		.close
+	.endif
+.endmacro

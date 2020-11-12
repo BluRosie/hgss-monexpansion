@@ -27,3 +27,8 @@ insert narc a034 over top of what was previously there
 run scripts/makeeggmoves.bat in the root directory
 
 insert kowaza.narc over top of data/kowaza.narc
+
+### make the baby mon list
+run scripts/makebabymons.bat in the root directory
+
+insert pms.narc over top of poketool/personal/pms.narc

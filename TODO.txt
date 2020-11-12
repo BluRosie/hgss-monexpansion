@@ -5,12 +5,12 @@ mon data/personal.narc (a002)
 tm compatibility/personal.narc (a002)
 evolution data/evo.narc (a034)
 egg moves/kowaza.narc (data/kowaza)
+baby table/pms.bin (poketool/personal/pms.narc)
 
 TODO:
 
-find baby table and move tutor shit
+find move tutor shit
 
-baby table/pms.bin (a???)
 move tutor/waza_oshie.bin (a???)
 icons/poke_icon.narc (a020)
 mon anims/pokeanm.narc (a111)
