@@ -4,12 +4,12 @@ sprites/pokegra.narc (a004)
 mon data/personal.narc (a002)
 tm compatibility/personal.narc (a002)
 evolution data/evo.narc (a034)
+egg moves/kowaza.narc (data/kowaza)
 
 TODO:
 
 find baby table and move tutor shit
 
-egg moves/kowaza.narc (a029)
 baby table/pms.bin (a???)
 move tutor/waza_oshie.bin (a???)
 icons/poke_icon.narc (a020)

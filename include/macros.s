@@ -134,3 +134,24 @@
 	
 	.close
 .endmacro
+
+
+// egg move macros
+
+.macro eggmove,move
+	.halfword move
+.endmacro
+
+.macro eggmoveentry,species
+	.if species == 1
+		.create "kowaza/kowaza_0",0
+	.endif
+	
+	.halfword species+20000
+.endmacro
+
+.macro terminateeggmoves
+	.halfword 0xFFFF
+	
+	.close
+.endmacro
