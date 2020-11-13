@@ -172,3 +172,17 @@
 		.close
 	.endif
 .endmacro
+
+
+// tutor move bitfield macro
+
+.macro tutordata,species,data1,data2
+	.if species == 1
+		.create "waza_oshie.narc",0
+	.endif
+
+	.org ((species - 1) * 8)
+	
+	.word data1
+	.word data2
+.endmacro

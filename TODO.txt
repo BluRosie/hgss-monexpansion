@@ -6,12 +6,10 @@ tm compatibility/personal.narc (a002)
 evolution data/evo.narc (a034)
 egg moves/kowaza.narc (data/kowaza)
 baby table/pms.bin (poketool/personal/pms.narc)
+move tutor/waza_oshie.bin (fielddata/wazaoshie/waza_oshie.bin)
 
 TODO:
 
-find move tutor shit
-
-move tutor/waza_oshie.bin (a???)
 icons/poke_icon.narc (a020)
 mon anims/pokeanm.narc (a111)
 footprints/pokefoot.narc (a069)

@@ -32,3 +32,8 @@ insert kowaza.narc over top of data/kowaza.narc
 run scripts/makebabymons.bat in the root directory
 
 insert pms.narc over top of poketool/personal/pms.narc
+
+### make the tutor move list
+run scripts/maketutormoves.bat in the root directory
+
+insert waza_oshie.narc over top of fielddata/wazaoshie/waza_oshie.bin
