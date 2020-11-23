@@ -37,3 +37,10 @@ insert pms.narc over top of poketool/personal/pms.narc
 run scripts/maketutormoves.bat in the root directory
 
 insert waza_oshie.narc over top of fielddata/wazaoshie/waza_oshie.bin
+
+### make the mon icon narc
+put your arm9 in the root directory as arm9.bin
+
+run scripts/makemoniconnarc.bat in the root directory
+
+insert arm9.bin back into the rom (make sure to recompress it in ct2) as well as narc a020 over top of what was previously there
