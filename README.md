@@ -27,6 +27,7 @@ insert narc a034 over top of what was previously there
 run scripts/makeeggmoves.bat in the root directory
 
 insert kowaza.narc over top of data/kowaza.narc
+also insert kowaza.narc as narc a229 because i can't tell which one is actually used but they're literally identical
 
 ### make the baby mon list
 run scripts/makebabymons.bat in the root directory
@@ -59,16 +60,16 @@ insert narc a069 over top of what was previously there
  this is literally useless but i documented it!  it does nothing but hey!!
 
 ### make the mon shadow size narc
-run scripts/makeshadowsizetable.bat in the root directory
+run scripts/leftovers/makeshadowsizetable.bat in the root directory
 
 insert narc a135 over top of what was previously there
 
 ### make the mon shadow offset narc
-run scripts/makeshadowoffsettable.bat in the root directory
+run scripts/leftovers/makeshadowoffsettable.bat in the root directory
 
 insert narc a137 over top of what was previously there
 
 ### make the mon y offset narc
-run scripts/makeyoffsettable.bat in the root directory
+run scripts/leftovers/makeyoffsettable.bat in the root directory
 
 insert narc a132 over top of what was previously there

@@ -1,22 +1,31 @@
 done:
-learnsets/wotbl.narc (a033)
-sprites/pokegra.narc (a004)
 mon data/personal.narc (a002)
 tm compatibility/personal.narc (a002)
+learnsets/wotbl.narc (a033)
 evolution data/evo.narc (a034)
-egg moves/kowaza.narc (data/kowaza)
+egg moves/kowaza.narc (data/kowaza) (a229)
 baby table/pms.bin (poketool/personal/pms.narc)
 move tutor/waza_oshie.bin (fielddata/wazaoshie/waza_oshie.bin)
+
+gfx stuff:
+sprites/pokegra.narc (a004)
 icons/poke_icon.narc (a020)
+
 
 TODO:
 
-friend mon y offset?/height.narc (a005)
-dex stuff
+y offset list/height.narc (a005)
+pokemon anims/poke_anm.narc (a090)
+anims, shadow, offsets/poke_data.narc (a180)
+
+dex stuff:
+johto dex/pokezukan.narc (a138)
+pokedex data/zukan_data.narc (a074)
+dex encounter data/zukan_enc_x.narc (a133)
+
 mon names
 
 skipping for now:
-mon anims/pokeanm.narc (a111)
 footprints/pokefoot.narc (a069) - maybe add at a later date
 alt form sprites/otherpoke.narc (a114) - not related to mon expansion
 height order?/height_o.narc (a117)
@@ -25,6 +34,7 @@ leftover bullshit:
 mon shadow size/poke_shadow.narc (a135)
 mon shadow x offset/poke_shadow_ofx.narc (a137)
 y axis offsets/poke_yofs.narc (a132)
+mon anims/pokeanm.narc (a111)
 
 
 code edits:
