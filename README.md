@@ -50,4 +50,25 @@ this one i just chose to not deal with the lz10 compression.  no edits can curre
 
 run scripts/makefootprintnarc.bat in the root directory
 
-insert a069.narc back into the rom over top of what was previously there
+insert narc a069 over top of what was previously there
+
+
+
+
+# leftover stupid things
+ this is literally useless but i documented it!  it does nothing but hey!!
+
+### make the mon shadow size narc
+run scripts/makeshadowsizetable.bat in the root directory
+
+insert narc a135 over top of what was previously there
+
+### make the mon shadow offset narc
+run scripts/makeshadowoffsettable.bat in the root directory
+
+insert narc a137 over top of what was previously there
+
+### make the mon y offset narc
+run scripts/makeyoffsettable.bat in the root directory
+
+insert narc a132 over top of what was previously there
