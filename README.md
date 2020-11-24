@@ -44,3 +44,10 @@ put your arm9 in the root directory as arm9.bin
 run scripts/makemoniconnarc.bat in the root directory
 
 insert arm9.bin back into the rom (make sure to recompress it in ct2) as well as narc a020 over top of what was previously there
+
+### make the mon footprint narc
+this one i just chose to not deal with the lz10 compression.  no edits can currently be made, but i put blank footprints in for plenty of new pokémon.  will make editable in a while.
+
+run scripts/makefootprintnarc.bat in the root directory
+
+insert a069.narc back into the rom over top of what was previously there

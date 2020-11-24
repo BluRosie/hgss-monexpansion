@@ -7,12 +7,10 @@ evolution data/evo.narc (a034)
 egg moves/kowaza.narc (data/kowaza)
 baby table/pms.bin (poketool/personal/pms.narc)
 move tutor/waza_oshie.bin (fielddata/wazaoshie/waza_oshie.bin)
+icons/poke_icon.narc (a020)
 
 TODO:
 
-icons/poke_icon.narc (a020)
-mon anims/pokeanm.narc (a111)
-footprints/pokefoot.narc (a069)
 alt form sprites/otherpoke.narc (a114)
 height order?/height_o.narc (a117)
 mon shadow size/poke_shadow.narc (a135)
@@ -21,6 +19,11 @@ y axis offsets/poke_yofs.narc (a132)
 friend mon y offset?/height.narc (a005)
 dex stuff
 mon names
+
+skipping for now:
+mon anims/pokeanm.narc (a111)
+footprints/pokefoot.narc (a069) - maybe add at a later date
+
 
 code edits:
 
