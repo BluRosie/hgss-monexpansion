@@ -91,6 +91,13 @@ EVO_LEVEL_ELECTRIC_FIELD      equ 24
 EVO_LEVEL_MOSSY_STONE         equ 25
 EVO_LEVEL_ICY_STONE           equ 26
 
+// shadow size constants
+
+SHADOW_NO_SHADOW    equ 0
+SHADOW_SIZE_SMALL   equ 1
+SHADOW_SIZE_MEDIUM  equ 2
+SHADOW_SIZE_LARGE   equ 3
+
 // tm constants
 
 TM001 equ 1 << 0
