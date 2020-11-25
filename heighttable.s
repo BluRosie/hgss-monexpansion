@@ -164,13 +164,13 @@ heightentry SPECIES_MEW, "null", 0, "null", 16
 heightentry SPECIES_CHIKORITA, 12, 12, 18, 18
 heightentry SPECIES_BAYLEEF, 6, 6, 10, 10
 heightentry SPECIES_MEGANIUM, 2, 2, 2, 2
-heightentry SPECIES_CYNDAQUIL, 32, 32, 19, 19
+heightentry SPECIES_CYNDAQUIL, 4, 4, 19, 19
 heightentry SPECIES_QUILAVA, 0, 0, 16, 16
 heightentry SPECIES_TYPHLOSION, 4, 4, 2, 2
 heightentry SPECIES_TOTODILE, 12, 12, 22, 22
 heightentry SPECIES_CROCONAW, 3, 3, 11, 11
 heightentry SPECIES_FERALIGATR, 3, 3, 4, 4
-heightentry SPECIES_SENTRET, 1, 32, 8, 8
+heightentry SPECIES_SENTRET, 1, 1, 8, 8
 heightentry SPECIES_FURRET, 5, 5, 12, 12
 heightentry SPECIES_HOOTHOOT, 5, 5, 18, 18
 heightentry SPECIES_NOCTOWL, 4, 4, 6, 6
