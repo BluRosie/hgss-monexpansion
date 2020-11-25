@@ -53,7 +53,10 @@ run scripts/makefootprintnarc.bat in the root directory
 
 insert narc a069 over top of what was previously there
 
+### make the mon height table
+run scripts/makeheighttable.bat in the root directory
 
+insert narc a005 over top of what was previously there
 
 
 # leftover stupid things

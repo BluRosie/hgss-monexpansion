@@ -10,11 +10,11 @@ move tutor/waza_oshie.bin (fielddata/wazaoshie/waza_oshie.bin)
 gfx stuff:
 sprites/pokegra.narc (a004)
 icons/poke_icon.narc (a020)
+y offset list/height.narc (a005)
 
 
 TODO:
 
-y offset list/height.narc (a005)
 pokemon anims/poke_anm.narc (a090)
 anims, shadow, offsets/poke_data.narc (a180)
 
