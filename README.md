@@ -58,6 +58,13 @@ run scripts/makeheighttable.bat in the root directory
 
 insert narc a005 over top of what was previously there
 
+### make the mon sprite offsets table
+run scripts/makespriteoffsets.bat
+
+insert narc a180 over top of what was previously there
+
+TODO:  make a tool for visualizing this?
+
 
 # leftover stupid things
  this is literally useless but i documented it!  it does nothing but hey!!

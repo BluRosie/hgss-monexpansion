@@ -11,12 +11,10 @@ gfx stuff:
 sprites/pokegra.narc (a004)
 icons/poke_icon.narc (a020)
 y offset list/height.narc (a005)
+anims, shadow, offsets/poke_data.narc (a180)
 
 
 TODO:
-
-pokemon anims/poke_anm.narc (a090)
-anims, shadow, offsets/poke_data.narc (a180)
 
 dex stuff:
 johto dex/pokezukan.narc (a138)
@@ -25,10 +23,12 @@ dex encounter data/zukan_enc_x.narc (a133)
 
 mon names
 
+
 skipping for now:
 footprints/pokefoot.narc (a069) - maybe add at a later date
 alt form sprites/otherpoke.narc (a114) - not related to mon expansion
 height order?/height_o.narc (a117)
+pokemon anims/poke_anm.narc (a090) - animations not well defined
 
 leftover bullshit:
 mon shadow size/poke_shadow.narc (a135)
