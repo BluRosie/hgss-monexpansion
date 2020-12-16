@@ -12,16 +12,17 @@ sprites/pokegra.narc (a004)
 icons/poke_icon.narc (a020)
 y offset list/height.narc (a005)
 anims, shadow, offsets/poke_data.narc (a180)
+johto dex/pokezukan.narc (a138)
 
 
 TODO:
 
 dex stuff:
-johto dex/pokezukan.narc (a138)
 pokedex data/zukan_data.narc (a074)
 dex encounter data/zukan_enc_x.narc (a133)
 
 mon names
+dex description
 
 
 skipping for now:

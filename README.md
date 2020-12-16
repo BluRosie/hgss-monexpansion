@@ -67,6 +67,11 @@ insert narc a180 over top of what was previously there
 
 TODO:  make a tool for visualizing this?
 
+### make the regional dex order
+run scripts/makejohtodexorder.bat
+
+insert narc a138 over top of what was previously there
+
 
 # leftover stupid things
  this is literally useless but i documented it!  it does nothing but hey!!
