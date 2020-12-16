@@ -8,6 +8,9 @@
 .include "include/abilities.s"
 .include "tmlearnset.s"
 
+// all the mon personal data.  tm learnsets are specifically in tmlearnset.s
+
+
 mondata SPECIES_NONE
     basestats 0, 0, 0, 0, 0, 0
     types TYPE_NORMAL, TYPE_NORMAL

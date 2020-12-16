@@ -4,10 +4,10 @@
 .include "include/macros.s"
 .include "include/monnums.s"
 
-
 // format of heightentry:
 // heightentry species, female back height offset, male back height offset, female front height offset, male front height offset
 // "null" is specifically reserved for pokémon that do not have a specific gender:  i.e. the male entries for female nidoran are "null"
+
 
 heightentry SPECIES_NONE, 0, 0, 0, 0
 heightentry SPECIES_BULBASAUR, 18, 18, 22, 22

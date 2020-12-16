@@ -4,6 +4,8 @@
 .include "include/macros.s"
 .include "include/monnums.s"
 
+// matches each species to its baby species
+
 
 babymon SPECIES_NONE, SPECIES_NONE
 babymon SPECIES_BULBASAUR, SPECIES_BULBASAUR

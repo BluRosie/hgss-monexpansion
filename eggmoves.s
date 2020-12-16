@@ -5,6 +5,9 @@
 .include "include/monnums.s"
 .include "include/movenums.s"
 
+// the egg moves of each mon
+// needs to be in species order
+
 
 eggmoveentry SPECIES_BULBASAUR
     eggmove MOVE_LIGHT_SCREEN

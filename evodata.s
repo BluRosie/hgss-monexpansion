@@ -7,6 +7,9 @@
 .include "include/itemnums.s"
 .include "include/movenums.s"
 
+// the evolution data of each mon
+
+
 evodata SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

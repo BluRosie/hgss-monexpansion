@@ -1,3 +1,7 @@
+// constants defining the tm learnsets of each pokemon.  used in mondata.s
+
+
+
 SPECIES_NONE_TM_DATA_0 equ 0 
 SPECIES_NONE_TM_DATA_1 equ 0 
 SPECIES_NONE_TM_DATA_2 equ 0 

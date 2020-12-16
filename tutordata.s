@@ -5,6 +5,8 @@
 .include "include/constants.s"
 .include "include/monnums.s"
 
+// the tutor move learnset for each mon.  look into the moves in constants.s to see how to format
+
 
 tutordata SPECIES_BULBASAUR, \
                   TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \

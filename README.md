@@ -59,7 +59,9 @@ run scripts/makeheighttable.bat in the root directory
 insert narc a005 over top of what was previously there
 
 ### make the mon sprite offsets table
-run scripts/makespriteoffsets.bat
+extract a180_0.bin (extract it from narc a180) and put it in the root directory as a180_0.bin.  this is done to preserve frame animation data for each mon
+
+run scripts/makespriteoffsets.bat in the root directory
 
 insert narc a180 over top of what was previously there
 

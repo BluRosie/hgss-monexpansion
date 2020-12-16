@@ -5,6 +5,8 @@
 
 .orga 0xFFC10 // begin icon palette table
 
+// the icon palette table maps each icon to which of the 3 icon palettes
+
 
 /* SPECIES_NONE            */ .byte 00
 /* SPECIES_BULBASAUR       */ .byte 01

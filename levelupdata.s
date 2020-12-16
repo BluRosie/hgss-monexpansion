@@ -5,6 +5,9 @@
 .include "include/monnums.s"
 .include "include/movenums.s"
 
+// the level up moves for each pokemon
+
+
 levelup SPECIES_NONE
     terminatelearnset
 

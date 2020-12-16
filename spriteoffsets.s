@@ -7,6 +7,9 @@
 
 .open "a180_0.bin", "a180/a180_0.bin", 0
 
+// the in-battle sprite offsets for each pokemon.  also included are the shadow coords
+
+
           // species, monoffy, shadowoffx, shadow size
 dataentry SPECIES_NONE, 85, 85,  SHADOW_SIZE_SMALL
 dataentry SPECIES_BULBASAUR, -1, 0,   SHADOW_SIZE_MEDIUM
