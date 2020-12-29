@@ -68,7 +68,7 @@ insert narc a180 over top of what was previously there
 TODO:  make a tool for visualizing this?
 
 ### make the regional dex order
-run scripts/makeregionaldexorder.bat
+run scripts/makeregionaldexorder.bat in the root directory
 
 insert narc a138 over top of what was previously there
 

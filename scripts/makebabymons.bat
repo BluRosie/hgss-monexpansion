@@ -1,1 +1,1 @@
-armips babymons.s
+armips data\babymons.s

@@ -6,7 +6,7 @@
 .include "include/itemnums.s"
 .include "include/constants.s"
 .include "include/abilities.s"
-.include "tmlearnset.s"
+.include "data/tmlearnset.s"
 
 // all the mon personal data.  tm learnsets are specifically in tmlearnset.s
 
