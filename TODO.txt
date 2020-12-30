@@ -14,15 +14,15 @@ y offset list/height.narc (a005)
 anims, shadow, offsets/poke_data.narc (a180)
 johto dex/pokezukan.narc (a138)
 
+mon names
+all the dex data
+
 
 TODO:
 
 dex stuff:
 pokedex data/zukan_data.narc (a074)
 dex encounter data/zukan_enc_x.narc (a133)
-
-mon names
-dex description
 
 
 skipping for now:

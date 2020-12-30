@@ -72,6 +72,15 @@ run scripts/makeregionaldexorder.bat in the root directory
 
 insert narc a138 over top of what was previously there
 
+### make all the text related changes
+specifically the things like the mon names, dex descriptions, weight, height, and dex categories
+
+put your heart gold rom in the text/ folder as "base.nds"
+
+run scripts/makemsgnarc.bat in the root directory
+
+insert narc a027 over top of what was previously there
+
 
 # leftover stupid things
  this is literally useless but i documented it!  it does nothing but hey!!
