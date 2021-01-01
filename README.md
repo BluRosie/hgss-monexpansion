@@ -26,8 +26,7 @@ insert narc a034 over top of what was previously there
 ### make the egg moves table
 run scripts/makeeggmoves.bat in the root directory
 
-insert kowaza.narc over top of data/kowaza.narc
-also insert kowaza.narc as narc a229 because i can't tell which one is actually used but they're literally identical
+insert kowaza.narc over top of data/kowaza.narc - also insert kowaza.narc as narc a229 because i can't tell which one is actually used but they're literally identical
 
 ### make the baby mon list
 run scripts/makebabymons.bat in the root directory
@@ -80,6 +79,8 @@ put your heart gold rom in the text/ folder as "base.nds"
 run scripts/makemsgnarc.bat in the root directory
 
 insert narc a027 over top of what was previously there
+
+credits to loadingNOW for his tool, thenewpoketext.  had to modify the binary to make it apply to hgss specifically, but it works alright
 
 
 # leftover stupid things
