@@ -501,4 +501,42 @@
 /* SPECIES_SHAYMIN         */ .halfword 0
 /* SPECIES_ARCEUS          */ .halfword 0
 
+/* SPECIES_508             */ .halfword 0
+/* SPECIES_509             */ .halfword 0
+/* SPECIES_510             */ .halfword 0
+/* SPECIES_511             */ .halfword 0
+/* SPECIES_512             */ .halfword 0
+/* SPECIES_513             */ .halfword 0
+/* SPECIES_514             */ .halfword 0
+/* SPECIES_515             */ .halfword 0
+/* SPECIES_516             */ .halfword 0
+/* SPECIES_517             */ .halfword 0
+/* SPECIES_518             */ .halfword 0
+/* SPECIES_519             */ .halfword 0
+/* SPECIES_520             */ .halfword 0
+/* SPECIES_521             */ .halfword 0
+/* SPECIES_522             */ .halfword 0
+/* SPECIES_523             */ .halfword 0
+/* SPECIES_524             */ .halfword 0
+/* SPECIES_525             */ .halfword 0
+/* SPECIES_526             */ .halfword 0
+/* SPECIES_527             */ .halfword 0
+/* SPECIES_528             */ .halfword 0
+/* SPECIES_529             */ .halfword 0
+/* SPECIES_530             */ .halfword 0
+/* SPECIES_531             */ .halfword 0
+/* SPECIES_532             */ .halfword 0
+/* SPECIES_533             */ .halfword 0
+/* SPECIES_534             */ .halfword 0
+/* SPECIES_535             */ .halfword 0
+/* SPECIES_536             */ .halfword 0
+/* SPECIES_537             */ .halfword 0
+/* SPECIES_538             */ .halfword 0
+/* SPECIES_539             */ .halfword 0
+/* SPECIES_540             */ .halfword 0
+/* SPECIES_541             */ .halfword 0
+/* SPECIES_542             */ .halfword 0
+/* SPECIES_543             */ .halfword 0
+/* SPECIES_VICTINI         */ .halfword 0
+
 .close

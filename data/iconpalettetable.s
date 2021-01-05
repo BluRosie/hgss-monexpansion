@@ -552,5 +552,6 @@
 /* castform rain           */ .byte 00
 /* castform ice            */ .byte 00
 /* cherrim sun             */ .byte 01
+/* SPECIES_VICTINI         */ .byte 00
 
 .close

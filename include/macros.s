@@ -254,7 +254,7 @@
 .endmacro
 
 .macro dataentry,species,monoffy,shadowoffx,shadowsize
-	.if species <= 493 // a species in the current game
+	.if species <= SPECIES_ARCEUS // a species in the current game
 		.orga (species * 0x59) + 0x56 // edit the last 3 bytes of the structure apparently
 	.else // generic frame data (it is bulbasaur)
 		.orga (species * 0x59)

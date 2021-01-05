@@ -19,7 +19,7 @@ namespace PlatinumSpriteEditor
 
 		public MainForm(string[] args)
 		{
-			int i;
+			int i, totalMons;
 
 			FileStream ncgr;
 
@@ -27,15 +27,17 @@ namespace PlatinumSpriteEditor
 
 			//Console.WriteLine("{0}", args[0]);
 
-			if (args.Length != 2)
+			if (args.Length != 3)
 			{
-				Console.WriteLine("geniconnarc converts the icon gfx folder format to the files directly for use with HGSS mon icons\n\nUsage:  geniconnarc [path to gfx directory] [path to output directory]\n");
+				Console.WriteLine("geniconnarc converts the icon gfx folder format to the files directly for use with HGSS mon icons\n\nUsage:  geniconnarc [path to gfx directory] [path to output directory] [number of mons]\n");
 				return;
 			}
 
 			System.IO.Directory.CreateDirectory(args[1]);
 
-			for (i = 7; i <= 550; i++)
+			totalMons = int.Parse(args[2]);
+
+			for (i = 7; i <= totalMons + 7; i++)
 			{
 				ncgr = System.IO.File.OpenWrite(args[1] + "\\a020_" + i.ToString("D3")); // icon output file
 

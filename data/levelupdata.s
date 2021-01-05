@@ -8295,3 +8295,134 @@ levelup SPECIES_ROTOM_MOW
     learnset MOVE_CHARGE, 43 
     learnset MOVE_DISCHARGE, 50 
     terminatelearnset
+
+
+
+
+levelup SPECIES_508
+    terminatelearnset
+
+levelup SPECIES_509
+    terminatelearnset
+
+levelup SPECIES_510
+    terminatelearnset
+
+levelup SPECIES_511
+    terminatelearnset
+
+levelup SPECIES_512
+    terminatelearnset
+
+levelup SPECIES_513
+    terminatelearnset
+
+levelup SPECIES_514
+    terminatelearnset
+
+levelup SPECIES_515
+    terminatelearnset
+
+levelup SPECIES_516
+    terminatelearnset
+
+levelup SPECIES_517
+    terminatelearnset
+
+levelup SPECIES_518
+    terminatelearnset
+
+levelup SPECIES_519
+    terminatelearnset
+
+levelup SPECIES_520
+    terminatelearnset
+
+levelup SPECIES_521
+    terminatelearnset
+
+levelup SPECIES_522
+    terminatelearnset
+
+levelup SPECIES_523
+    terminatelearnset
+
+levelup SPECIES_524
+    terminatelearnset
+
+levelup SPECIES_525
+    terminatelearnset
+
+levelup SPECIES_526
+    terminatelearnset
+
+levelup SPECIES_527
+    terminatelearnset
+
+levelup SPECIES_528
+    terminatelearnset
+
+levelup SPECIES_529
+    terminatelearnset
+
+levelup SPECIES_530
+    terminatelearnset
+
+levelup SPECIES_531
+    terminatelearnset
+
+levelup SPECIES_532
+    terminatelearnset
+
+levelup SPECIES_533
+    terminatelearnset
+
+levelup SPECIES_534
+    terminatelearnset
+
+levelup SPECIES_535
+    terminatelearnset
+
+levelup SPECIES_536
+    terminatelearnset
+
+levelup SPECIES_537
+    terminatelearnset
+
+levelup SPECIES_538
+    terminatelearnset
+
+levelup SPECIES_539
+    terminatelearnset
+
+levelup SPECIES_540
+    terminatelearnset
+
+levelup SPECIES_541
+    terminatelearnset
+
+levelup SPECIES_542
+    terminatelearnset
+
+levelup SPECIES_543
+    terminatelearnset
+
+levelup SPECIES_VICTINI
+    learnset MOVE_CONFUSION, 1 
+    learnset MOVE_FOCUS_ENERGY, 1 
+	learnset MOVE_FIRE_SPIN, 1 // incinerate
+    learnset MOVE_QUICK_ATTACK, 1 
+    learnset MOVE_FLAMETHROWER, 1 // searing shot
+    learnset MOVE_ENDURE, 9 
+    learnset MOVE_HEADBUTT, 17 
+    learnset MOVE_FLAME_WHEEL, 25 // flame charge
+    learnset MOVE_REVERSAL, 33 
+    learnset MOVE_FIRE_PUNCH, 41 // flame burst
+    learnset MOVE_ZEN_HEADBUTT, 49 
+    learnset MOVE_FIRE_BLAST, 57 // inferno
+    learnset MOVE_DOUBLE_EDGE, 65 
+    learnset MOVE_FLARE_BLITZ, 73 
+    learnset MOVE_TRICK, 81 // final gambit
+    learnset MOVE_HIDDEN_POWER, 89 // stored power
+    learnset MOVE_OVERHEAT, 97 
+    terminatelearnset

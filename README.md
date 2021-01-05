@@ -1,6 +1,19 @@
 # hgss-monexpansion
  looking into mon expansion in english heart gold
 
+## build everything
+put your arm9 in the root directory as arm9.bin
+
+extract a180_0.bin (extract it from narc a180) and put it in the root directory as a180_0.bin.  this is done to preserve frame animation data for each mon
+
+put your heart gold rom in the text/ folder as "base.nds"
+
+run scripts/make.bat in the root directory
+
+replace all the generated files with their equivalents in the rom.  specifics can be seen below
+
+
+
 ### make the mon sprite data
 run scripts/makemonspritenarc.bat in the root directory
 
@@ -42,6 +55,8 @@ insert waza_oshie.narc over top of fielddata/wazaoshie/waza_oshie.bin
 put your arm9 in the root directory as arm9.bin
 
 run scripts/makemoniconnarc.bat in the root directory
+
+might have to make everything linux related.  here, run ./scripts/nitrogfxspritenarc.sh in the root directory.  not trying to reinvent the wheel here.
 
 insert arm9.bin back into the rom (make sure to recompress it in ct2) as well as narc a020 over top of what was previously there
 

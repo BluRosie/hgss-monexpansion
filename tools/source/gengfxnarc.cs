@@ -19,7 +19,7 @@ namespace PlatinumSpriteEditor
 
 		public MainForm(string[] args)
 		{
-			int i;
+			int i, totalMons;
 
 			int index;
 
@@ -30,16 +30,18 @@ namespace PlatinumSpriteEditor
 
 			//Console.WriteLine("{0}", args[0]);
 
-			if (args.Length != 2)
+			if (args.Length != 3)
 			{
-				Console.WriteLine("gengfxnarc converts the gfx folder format to the files directly for use with HGSS Sprites\n\nUsage:  gengfxnarc [path to gfx directory] [path to output directory]\n");
+				Console.WriteLine("gengfxnarc converts the gfx folder format to the files directly for use with HGSS Sprites\n\nUsage:  gengfxnarc [path to gfx directory] [path to output directory] [total number of mons]\n");
 				return;
 			}
 
 			System.IO.Directory.CreateDirectory(args[1]);
 
+			totalMons = int.Parse(args[2]);
+
 			// backf backm frontf frontm pal shinypal
-			for (i = 0; i <= 493; i++)
+			for (i = 0; i <= totalMons; i++)
 			{
 				index = i * 6;
 

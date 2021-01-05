@@ -17,6 +17,9 @@ johto dex/pokezukan.narc (a138)
 mon names
 all the dex text data
 
+TODO:
+
+overworld btx0
 
 
 TODO (eventually):
