@@ -18,13 +18,13 @@ namespace PlatinumSpriteEditor
 
 		public MainForm(string[] args)
 		{
-			int i;
+			int i, totalMons;
 
 			//Console.WriteLine("{0}", args[0]);
 
-			if (args.Length != 2)
+			if (args.Length != 3)
 			{
-				Console.WriteLine("gengfxicons converts Nintendo's ncgr format to pngs for use with icons specifically\n\nUsage:  gengfxicons [path to unpacked a020] [path to output directory]\n");
+				Console.WriteLine("gengfxicons converts Nintendo's ncgr format to pngs for use with icons specifically\n\nUsage:  gengfxicons [path to unpacked a020] [path to output directory] [total number of mons]\n");
 				return;
 			}
 
@@ -33,8 +33,10 @@ namespace PlatinumSpriteEditor
 			FileStream palList = System.IO.File.OpenRead("rawdata\\iconpalettetable.bin"); // tired of making everything super portable.  set it up correctly and you won't have to deal with anything.
 			FileStream nclr = System.IO.File.OpenRead(args[0] + "\\a020_000"); // all of the palettes
 
+			totalMons = int.Parse(args[2]) + 7;
+
 			// backf backm frontf frontm pal shinypal
-			for (i = 7; i <= 550; i++)
+			for (i = 7; i <= totalMons; i++)
 			{
 				Bitmap png;
 				BinaryReader binaryReader = new BinaryReader(palList);
