@@ -13,14 +13,13 @@ icons/poke_icon.narc (a020)
 y offset list/height.narc (a005)
 anims, shadow, offsets/poke_data.narc (a180)
 johto dex/pokezukan.narc (a138)
+overworld btx0/mmodel.narc (a081)
 
 mon names
 all the dex text data
 
 TODO:
-
-overworld btx0
-
+cries i guess
 
 TODO (eventually):
 

@@ -8,6 +8,8 @@ extract a180_0.bin (extract it from narc a180) and put it in the root directory 
 
 put your heart gold rom in the text/ folder as "base.nds"
 
+put your a081 narc in the root folder as a081.narc (the output will overwrite this)
+
 run scripts/make.bat in the root directory
 
 replace all the generated files with their equivalents in the rom.  specifics can be seen below
@@ -18,6 +20,8 @@ replace all the generated files with their equivalents in the rom.  specifics ca
 run scripts/makemonspritenarc.bat in the root directory
 
 insert narc a004 over top of the previous one
+
+make sure that the image is png-24 format.  (decrease the color depth to 256)
 
 credits to goodri63 here on github for his GenIVSpriteReplacer which i modified to turn it into a number of command line tools
 
@@ -56,7 +60,7 @@ put your arm9 in the root directory as arm9.bin
 
 run scripts/makemoniconnarc.bat in the root directory
 
-might have to make everything linux related.  here, run ./scripts/nitrogfxspritenarc.sh in the root directory.  not trying to reinvent the wheel here.
+make sure that the image is png-24 format.  (decrease the color depth to 256)
 
 insert arm9.bin back into the rom (make sure to recompress it in ct2) as well as narc a020 over top of what was previously there
 
@@ -100,11 +104,15 @@ credits to loadingNOW for his tool, thenewpoketext.  had to modify the binary to
 ### make all the overworld btx0 files
 the minisprites that appear in the overworld!  finally figured these out
 
+images don't need to be indexed
+
 put your a081 narc in the root folder as a081.narc (the output will overwrite this)
 
 run scripts/makeoverworldnarc.sh in the root directory.  this one currently requires wsl (cygwin or msys2 might work too), sadly
 
 insert narc a081 over top of what was previously there
+
+note that the \*\_shiny.png files are there solely for their palettes
 
 credits to KazoWAR for his tool that he updated in 2018, btx editor.  modified it to be a command line tool
 
