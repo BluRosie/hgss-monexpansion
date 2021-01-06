@@ -97,6 +97,17 @@ insert narc a027 over top of what was previously there
 
 credits to loadingNOW for his tool, thenewpoketext.  had to modify the binary to make it apply to hgss specifically, but it works alright
 
+### make all the overworld btx0 files
+the minisprites that appear in the overworld!  finally figured these out
+
+put your a081 narc in the root folder as a081.narc (the output will overwrite this)
+
+run scripts/makeoverworldnarc.sh in the root directory.  this one currently requires wsl (cygwin or msys2 might work too), sadly
+
+insert narc a081 over top of what was previously there
+
+credits to KazoWAR for his tool that he updated in 2018, btx editor.  modified it to be a command line tool
+
 
 # leftover stupid things
  this is literally useless but i documented it!  it does nothing but hey!!
