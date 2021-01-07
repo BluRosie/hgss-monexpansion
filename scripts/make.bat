@@ -12,3 +12,4 @@ call scripts\makeregionaldexorder.bat
 call scripts\makespriteoffsets.bat
 call scripts\maketutordata.bat
 call scripts\makeoverworldnarc.bat
+armips asm\syntheticoverlay.s

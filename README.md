@@ -4,6 +4,8 @@
 ## build everything
 put your arm9 in the root directory as arm9.bin
 
+put your overlay 1 in the root directory as overlay9_0001.bin
+
 extract a180_0.bin (extract it from narc a180) and put it in the root directory as a180_0.bin.  this is done to preserve frame animation data for each mon
 
 put your heart gold rom in the text/ folder as "base.nds"
@@ -102,15 +104,19 @@ insert narc a027 over top of what was previously there
 credits to loadingNOW for his tool, thenewpoketext.  had to modify the binary to make it apply to hgss specifically, but it works alright
 
 ### make all the overworld btx0 files
-the minisprites that appear in the overworld!  finally figured these out
-
 images don't need to be indexed
 
-put your a081 narc in the root folder as a081.narc (the output will overwrite this)
+put your arm9 in the root directory as arm9.bin
+
+put your overlay 1 in the root directory as overlay9_0001.bin
+
+put your a081 narc in the root folder as a081.narc (the output will overwrite this, but needs it nonetheless)
+
+add templates to the end of the above file, a081.  these can be found in rawdata/overworldtemplates.  for example, if i'm adding in a small pokemon, then i need to add in a smallmon template to the end of the file.
 
 run scripts/makeoverworldnarc.sh in the root directory.  this one currently requires wsl (cygwin or msys2 might work too), sadly
 
-insert narc a081 over top of what was previously there
+insert narc a081 over top of what was previously there.  do the same with narc a141, arm9.bin, overlay9_0001.bin, and a028_0.bin (insert it over the 0th file in narc a028).
 
 note that the \*\_shiny.png files are there solely for their palettes
 

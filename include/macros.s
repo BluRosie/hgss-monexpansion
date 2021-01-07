@@ -265,3 +265,23 @@
 	.byte shadowoffx
 	.byte shadowsize
 .endmacro
+
+
+// mon overworld narc a141 macro
+
+.macro overworlddata,ownum,canenter,bouncespeed
+	.if ownum < 10
+		.create "a141/a141_00" + tostring(ownum),0
+	.elseif ownum < 100
+		.create "a141/a141_0" + tostring(ownum),0
+	.else
+		.create "a141/a141_" + tostring(ownum),0
+	.endif
+	
+	.byte 0
+	.byte canenter
+	.byte bouncespeed
+	.byte 0
+	
+	.close
+.endmacro

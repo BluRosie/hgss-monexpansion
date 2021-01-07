@@ -1,13 +1,31 @@
 .nds
 .thumb
 
-.open "arm9.bin", 0x02000000
+.include "include/constants.s"
+.include "include/monnums.s"
+.include "asm/icons.s"
 
-.orga 0xFFC10 // begin icon palette table
+.if ((NUM_OF_MONS - 1) > SPECIES_ARCEUS)
+    .if fileexists("a028_0.bin") == 1
+		.open "a028_0.bin", 0x023C8000
+	.else
+		.create "a028_0.bin", 0x023C8000
+	.endif
+	
+	.orga (NUM_OF_MONS * 2) + ((NUM_OF_MON_OVERWORLDS + 300) * 6) // put this after all the stuff for the overworlds with 0x20 just to make sure
+.else
+    .open "arm9.bin", 0x02000000
+
+    .orga 0xFFC10 // begin icon palette table
+.endif
+
+.area NUM_OF_MONS > 544 ? NUM_OF_MONS + 3 : 544, 0xFF
 
 // the icon palette table maps each icon to which of the 3 icon palettes
 
+.align
 
+gIconPalTable:
 /* SPECIES_NONE            */ .byte 00
 /* SPECIES_BULBASAUR       */ .byte 01
 /* SPECIES_IVYSAUR         */ .byte 01
@@ -553,5 +571,7 @@
 /* castform ice            */ .byte 00
 /* cherrim sun             */ .byte 01
 /* SPECIES_VICTINI         */ .byte 00
+
+.endarea
 
 .close
