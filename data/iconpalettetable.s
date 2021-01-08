@@ -5,7 +5,7 @@
 .include "include/monnums.s"
 .include "asm/icons.s"
 
-.if ((NUM_OF_MONS - 1) > SPECIES_ARCEUS)
+.if ((NUM_OF_MONS - 1) > SPECIES_ROTOM_MOW)
     .if fileexists("a028_0.bin") == 1
 		.open "a028_0.bin", 0x023C8000
 	.else
