@@ -12,7 +12,7 @@
 		.create "a028_0.bin", 0x023C8000
 	.endif
 	
-	.orga (NUM_OF_MONS * 2) + ((NUM_OF_MON_OVERWORLDS + 300) * 6) // put this after all the stuff for the overworlds with 0x20 just to make sure
+	.orga (NUM_OF_MONS * 2) + ((NUM_OF_MON_OVERWORLDS + 350) * 6)
 .else
     .open "arm9.bin", 0x02000000
 
