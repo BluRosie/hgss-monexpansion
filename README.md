@@ -6,6 +6,8 @@ put your arm9 in the root directory as arm9.bin
 
 put your overlay 1 in the root directory as overlay9_0001.bin
 
+put your overlay 18 in the root directory as overlay9_0018.bin
+
 extract a180_0.bin (extract it from narc a180) and put it in the root directory as a180_0.bin.  this is done to preserve frame animation data for each mon
 
 put your heart gold rom in the text/ folder as "base.nds"

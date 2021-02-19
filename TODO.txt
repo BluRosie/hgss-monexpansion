@@ -18,7 +18,14 @@ overworld btx0/mmodel.narc (a081)
 mon names
 all the dex text data
 
+pokedex code
+- repoint seen flags to 0x84 (replace sex flags) and sex flags to 0x340 (and 0x3C0 for the second batch) for a total size of 0x440
+
 TODO:
+fix the crash in the dex
+expand a027 for new dex entries
+make the btx0 editor work without a template btx0
+narc a214?
 cries i guess
 
 TODO (eventually):

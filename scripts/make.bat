@@ -13,3 +13,4 @@ call scripts\makespriteoffsets.bat
 call scripts\maketutordata.bat
 call scripts\makeoverworldnarc.bat
 call scripts\makesyntheticoverlay.bat
+armips asm\pokedex.s
