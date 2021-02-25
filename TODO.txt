@@ -20,23 +20,21 @@ all the dex text data
 
 pokedex code
 - repoint seen flags to 0x84 (replace sex flags) and sex flags to 0x340 (and 0x3C0 for the second batch) for a total size of 0x440
+- repoint the mon lists to a dynamically allocated location
 
 TODO:
-fix the crash in the dex
-expand a027 for new dex entries
+narc a133 - fix dex crashing (dex encounter data) - make all area unknown i guess
+narc a214 - dex orders for sorting
+ - pokedex data/zukan_data.narc (a074)
+
 make the btx0 editor work without a template btx0
-narc a214?
-cries i guess
+cries
 
 TODO (eventually):
 
 footprints/pokefoot.narc (a069) - maybe add at a later date
 height order?/height_o.narc (a117)
 pokemon anims/poke_anm.narc (a090) - animations not well defined
-
-dex stuff:
-pokedex data/zukan_data.narc (a074)
-dex encounter data/zukan_enc_x.narc (a133)
 
 alt form sprites/otherpoke.narc (a114) - not related to mon expansion
 

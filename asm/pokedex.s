@@ -200,6 +200,90 @@ _21E6C60:
 .endarea
 
 
+.org 0x021E8698
+
+.area 0x7C
+
+
+sub_21E8698: // fix a crash when accessing dex data - is it really fixed though?
+    push {r3, r4, lr}
+    sub sp, sp, #0xC
+    mov r4, r0
+    cmp r2, #7
+    bhi _return_21E86DE
+    add r0, r2, r2
+    add r0, pc
+    ldrh r0, [r0, #(_jumptable - . - 2)] // old:  ldrh r0, [r0, #6] // the jumptable in 3 instructions from when pc was added to r0
+
+    /* old: // make space for another ldr entry below instead of mov lsl
+    lsl r0, r0, #0x10
+    asr r0, r0, #0x10*/
+
+    add pc, r0
+
+_jumptable: // construct a jumptable for use above
+    .halfword  e0 - _jumptable, \
+               e1 - _jumptable, \
+               e2 - _jumptable, \
+               e3 - _jumptable, \
+               e4 - _jumptable, \
+               e5 - _jumptable, \
+               e6 - _jumptable, \
+               e7 - _jumptable
+
+e0: // entry 0
+    mov r3, #2
+    b _return_21E86DE
+
+e1: // entry 1
+    ldr r3, =(2 + (NUM_OF_MONS)) // each entry sequentially adds (NUM_OF_MONS + 2) ?  or just NUM_OF_MONS?  or padding until the row is complete?
+    b _return_21E86DE
+
+e2: // entry 2
+    ldr r3, =(2 + 2*(NUM_OF_MONS))
+    b _return_21E86DE
+
+e3: // entry 3
+    ldr r3, =(2 + 6*(NUM_OF_MONS))
+    b _return_21E86DE
+
+e4: // entry 4
+    ldr r3, =(2 + 3*(NUM_OF_MONS))
+    b _return_21E86DE
+
+e5: // entry 5
+    ldr r3, =(2 + 4*(NUM_OF_MONS))
+    b _return_21E86DE
+
+e6: // entry 6
+    ldr r3, =(2 + 5*(NUM_OF_MONS))
+    b _return_21E86DE
+
+e7: // entry 7
+    ldr r3, =(2 + 7*(NUM_OF_MONS))
+    // fall through
+
+_return_21E86DE:
+    mov r2, #0
+    str r2, [sp]
+    add r0, sp, #0x8
+    str r0, [sp, #0x4]
+    add r1, r3, r1
+    mov r0, #133
+    mov r3, #0x25
+    bl 0x2007AC4 // load_narc_a0_file_r1
+    str r0, [r4]
+    ldr r0, [sp, #0x8]
+    lsr r0, r0, #2
+    str r0, [r4, #4]
+    add sp, sp, #0xC
+    pop {r3, r4, pc}
+
+.pool
+
+.endarea
+
+
 .org 0x021EDDC6 // edit out the 878
 
     ldr r0, [r5, r0] // instead of add r0, r5, r0
