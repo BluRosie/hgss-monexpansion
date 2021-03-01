@@ -220,14 +220,14 @@ sub_21E8698: // fix a crash when accessing dex data - is it really fixed though?
     add pc, r0
 
 _jumptable: // construct a jumptable for use above
-    .halfword  e0 - _jumptable, \
-               e1 - _jumptable, \
-               e2 - _jumptable, \
-               e3 - _jumptable, \
-               e4 - _jumptable, \
-               e5 - _jumptable, \
-               e6 - _jumptable, \
-               e7 - _jumptable
+    .halfword  e0 - _jumptable - 2, \
+               e1 - _jumptable - 2, \
+               e2 - _jumptable - 2, \
+               e3 - _jumptable - 2, \
+               e4 - _jumptable - 2, \
+               e5 - _jumptable - 2, \
+               e6 - _jumptable - 2, \
+               e7 - _jumptable - 2
 
 e0: // entry 0
     mov r3, #2
