@@ -291,49 +291,49 @@
 
 .macro specialareas,monnum,timeofday
 	.if (timeofday == 0) // morning time
-		.if (monnum + 2) < 10
-			.create "a133/a133_000" + tostring(monnum + 2),0
-		.elseif (monnum + 2) < 100
-			.create "a133/a133_00" + tostring(monnum + 2),0
-		.elseif (monnum + 2) < 1000
-			.create "a133/a133_0" + tostring(monnum + 2),0
+		.if (2 + monnum) < 10
+			.create "a133/a133_000" + tostring(2 + monnum),0
+		.elseif (2 + monnum) < 100
+			.create "a133/a133_00" + tostring(2 + monnum),0
+		.elseif (2 + monnum) < 1000
+			.create "a133/a133_0" + tostring(2 + monnum),0
 		.else
-			.create "a133/a133_" + tostring(monnum + 2),0
+			.create "a133/a133_" + tostring(2 + monnum),0
 		.endif
 	.elseif (timeofday == 1) // day time
-		.if (monnum + 497) < 10
-			.create "a133/a133_000" + tostring(monnum + 497),0
-		.elseif (monnum + 497) < 100
-			.create "a133/a133_00" + tostring(monnum + 497),0
-		.elseif (monnum + 497) < 1000
-			.create "a133/a133_0" + tostring(monnum + 497),0
+		.if (2 + monnum + NUM_OF_MONS) < 10
+			.create "a133/a133_000" + tostring(2 + monnum + NUM_OF_MONS),0
+		.elseif (2 + monnum + NUM_OF_MONS) < 100
+			.create "a133/a133_00" + tostring(2 + monnum + NUM_OF_MONS),0
+		.elseif (2 + monnum + NUM_OF_MONS) < 1000
+			.create "a133/a133_0" + tostring(2 + monnum + NUM_OF_MONS),0
 		.else
-			.create "a133/a133_" + tostring(monnum + 497),0
+			.create "a133/a133_" + tostring(2 + monnum + NUM_OF_MONS),0
 		.endif
 	.elseif (timeofday == 2) // night time
-		.if (monnum + 992) < 10
-			.create "a133/a133_000" + tostring(monnum + 992),0
-		.elseif (monnum + 992) < 100
-			.create "a133/a133_00" + tostring(monnum + 992),0
-		.elseif (monnum + 992) < 1000
-			.create "a133/a133_0" + tostring(monnum + 992),0
+		.if (2 + monnum + (2*NUM_OF_MONS)) < 10
+			.create "a133/a133_000" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
+		.elseif (2 + monnum + (2*NUM_OF_MONS)) < 100
+			.create "a133/a133_00" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
+		.elseif (2 + monnum + (2*NUM_OF_MONS)) < 1000
+			.create "a133/a133_0" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
 		.else
-			.create "a133/a133_" + tostring(monnum + 992),0
+			.create "a133/a133_" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
 		.endif
 	.else // timeofday == 3
-		.create "a133/a133_" + tostring(monnum + 2972),0
+		.create "a133/a133_" + tostring(2 + monnum + (6*NUM_OF_MONS)),0
 	.endif
 .endmacro
 
 .macro routesandcities,monnum,timeofday
 	.if (timeofday == 0) // morning time
-		.create "a133/a133_" + tostring(monnum + 1487),0
+		.create "a133/a133_" + tostring(2 + monnum + (3*NUM_OF_MONS)),0
 	.elseif (timeofday == 1) // day time
-		.create "a133/a133_" + tostring(monnum + 1982),0
+		.create "a133/a133_" + tostring(2 + monnum + (4*NUM_OF_MONS)),0
 	.elseif (timeofday == 2) // night time
-		.create "a133/a133_" + tostring(monnum + 2477),0
+		.create "a133/a133_" + tostring(2 + monnum + (5*NUM_OF_MONS)),0
 	.else // timeofday == 3
-		.create "a133/a133_" + tostring(monnum + 3467),0
+		.create "a133/a133_" + tostring(2 + monnum + (7*NUM_OF_MONS)),0
 	.endif
 .endmacro
 
