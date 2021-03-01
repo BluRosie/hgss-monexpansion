@@ -3,8 +3,6 @@
 
 ALWAYS_HAVE_NATIONAL_DEX equ 1
 
-.include "include/monnums.s"
-
 .open "overlay9_0018.bin", 0x021E5900
 
 
