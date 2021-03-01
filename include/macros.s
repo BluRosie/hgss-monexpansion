@@ -285,3 +285,60 @@
 	
 	.close
 .endmacro
+
+
+// mon dex area macros (narc a133)
+
+.macro specialareas,monnum,timeofday
+	.if (timeofday == 0) // morning time
+		.if (monnum + 2) < 10
+			.create "a133/a133_000" + tostring(monnum + 2),0
+		.elseif (monnum + 2) < 100
+			.create "a133/a133_00" + tostring(monnum + 2),0
+		.elseif (monnum + 2) < 1000
+			.create "a133/a133_0" + tostring(monnum + 2),0
+		.else
+			.create "a133/a133_" + tostring(monnum + 2),0
+		.endif
+	.elseif (timeofday == 1) // day time
+		.if (monnum + 497) < 10
+			.create "a133/a133_000" + tostring(monnum + 497),0
+		.elseif (monnum + 497) < 100
+			.create "a133/a133_00" + tostring(monnum + 497),0
+		.elseif (monnum + 497) < 1000
+			.create "a133/a133_0" + tostring(monnum + 497),0
+		.else
+			.create "a133/a133_" + tostring(monnum + 497),0
+		.endif
+	.elseif (timeofday == 2) // night time
+		.if (monnum + 992) < 10
+			.create "a133/a133_000" + tostring(monnum + 992),0
+		.elseif (monnum + 992) < 100
+			.create "a133/a133_00" + tostring(monnum + 992),0
+		.elseif (monnum + 992) < 1000
+			.create "a133/a133_0" + tostring(monnum + 992),0
+		.else
+			.create "a133/a133_" + tostring(monnum + 992),0
+		.endif
+	.else // timeofday == 3
+		.create "a133/a133_" + tostring(monnum + 2972),0
+	.endif
+.endmacro
+
+.macro routesandcities,monnum,timeofday
+	.if (timeofday == 0) // morning time
+		.create "a133/a133_" + tostring(monnum + 1487),0
+	.elseif (timeofday == 1) // day time
+		.create "a133/a133_" + tostring(monnum + 1982),0
+	.elseif (timeofday == 2) // night time
+		.create "a133/a133_" + tostring(monnum + 2477),0
+	.else // timeofday == 3
+		.create "a133/a133_" + tostring(monnum + 3467),0
+	.endif
+.endmacro
+
+.macro dexendareadata
+	.word 0
+	
+	.close
+.endmacro

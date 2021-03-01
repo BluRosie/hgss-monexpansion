@@ -22,8 +22,10 @@ pokedex code
 - repoint seen flags to 0x84 (replace sex flags) and sex flags to 0x340 (and 0x3C0 for the second batch) for a total size of 0x440
 - repoint the mon lists to a dynamically allocated location
 
-TODO:
 narc a133 - fix dex crashing (dex encounter data) - make all area unknown i guess
+- original file ranges:  2-496, 497-991, 992-1486, 1487-1981, 1982-2476, 2477-2971, 2972-3466, 3467-3961
+
+TODO:
 narc a214 - dex orders for sorting
  - pokedex data/zukan_data.narc (a074)
 

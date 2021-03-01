@@ -125,6 +125,12 @@ note that the \*\_shiny.png files are there solely for their palettes
 credits to KazoWAR for his tool that he updated in 2018, btx editor.  modified it to be a command line tool
 
 
+### make the dex area data
+run scripts/makedexareadata.bat in the root directory
+
+insert narc a133 over top of what was previously there
+
+
 # leftover stupid things
  this is literally useless but i documented it!  it does nothing but hey!!
 
