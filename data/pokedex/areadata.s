@@ -4,6 +4,7 @@
 .include "include/constants.s"
 .include "include/macros.s"
 .include "include/monnums.s"
+.include "asm/pokedex.s"
 
 /*
 
