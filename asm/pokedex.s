@@ -829,7 +829,7 @@ allocate_lists:
 
     mov r0, #0x25 // heapid
     ldr r1, =((NUM_OF_MONS + 19) * 4)
-    bl 0x201AACC // allocate the memory
+    bl 0x201AA8C // allocate the memory
 
     ldr r1, =0x878
     str r0, [r5, r1] // workspace+0x878 = AllocMemory_Lo(0x25, NUM_OF_MONS * 4)
@@ -842,7 +842,7 @@ allocate_lists:
 
     mov r0, #0x25 // heapid
     ldr r1, =((NUM_OF_MONS + 19) * 4)
-    bl 0x201AACC // allocate the memory
+    bl 0x201AA8C // allocate the memory
 
     ldr r1, =0x1030
     str r0, [r5, r1] // workspace+0x1030 = AllocMemory_Lo(0x25, NUM_OF_MONS * 4)
