@@ -203,7 +203,7 @@ _21E6C60:
 .area 0x7C
 
 
-sub_21E8698: // fix a crash when accessing dex data - is it really fixed though?
+sub_21E8698: // fix a crash when accessing dex data
     push {r3, r4, lr}
     sub sp, sp, #0xC
     mov r4, r0
@@ -346,6 +346,8 @@ _21EE86A:
     .word 0x1030
 
 
+// this is literally where and how the crash is occurring and i can not get rid of it
+// expanding file 813 does not work
 .org 0x021EEBB6 // take care of a 1032, the same way?  oh?
 
     // new:
@@ -441,8 +443,6 @@ _21F15E0:
     mov r1, #1
     ldr r0, [r7, r0]
     bl 0x200DCE8
-
-    // COME BACK TO THIS LATER
 
     // new, should still be under space without 0x1032 in the pool
     ldr r0, =0x1030
@@ -643,7 +643,7 @@ sub_21F8850: // counts caught pokemon?
     ldr r2, =0x102C // old:  ldr r2, =0x7B4
     mov r4, #0
     ldrh r5, [r5, r2] // old:  ldrh r5, [r0, r2] // load from the beginning of the workspace and not 878
-// rest of the routine can remain the same!
+// rest of the routine can remain the same?
 
 .org 0x021F8880
 
@@ -670,7 +670,7 @@ sub_21F8884:
     ldrh r0, [r5, r7] // old:  ldrh r0, [r5, r0]
     mov r6, #0
     cmp r0, #0
-    bls _return_21F88FE // COME BACK TO THIS LATER
+    bls _return_21F88FE
     //ldr r7, =0x102C optimize this out
     mov r4, #0 // old:  add r4, r5, #0
 
@@ -726,9 +726,9 @@ _21F88D6:
     ldr r2, =0x878
     ldr r3, =0x1030
     ldr r2, [r5, r2]
-    ldr r3, [r5, r2]
-    add r3, #4 // make this 1034?
-    add r3, #4 // skip an entry for some reason
+    ldr r3, [r5, r3]
+    //add r2, #4 // skip an entry for the dex sort info thing
+    add r3, #4 // skip an entry for the dex sort info thing
     mov r0, #0
 
 // r0 = entry
@@ -744,21 +744,21 @@ _21F88EA:
     add r1, r1, #1
 
     // new:
-    ldrh r4, [r2, r0] // load mon from 878 and store in 1034
-    strh r4, [r3, r0]
-    add r0, #2
-    ldrh r4, [r2, r0] // load seen/caught status from 878 and store in 1034
-    strh r4, [r3, r0]
+    ldr r4, [r2, r0] // load mon from 878 and store in 1034
+    str r4, [r3, r0]
+    //add r0, #2
+    //ldrh r4, [r2, r0] // load seen/caught status from 878 and store in 1034
+    //strh r4, [r3, r0]
 
     // old:
-    /*ldrh r2, [r0, r2] // load each entry from 878 and write to 1034?
+    /*ldrh r2, [r0, r2] // load each entry from 878 and write to 1034
     strh r2, [r0, r3] // store back to 1034
     ldrh r2, [r0, r4] // load 87A seen
     strh r2, [r0, r6] // store back to 1036*/
 
-    ldrh r2, [r5, r7] // caught/seen? num
-    add r0, r0, #2 // finish the incrementation - old:  add r0, r0, #4
-    cmp r1, r2
+    ldrh r4, [r5, r7] // old:  ldrh r2, [r5, r7] // caught/seen num
+    add r0, r0, #4
+    cmp r1, r4 // old:  cmp r1, r2
     bcc _21F88EA
 
 _return_21F88FE:
