@@ -24,11 +24,11 @@ pokedex code
 
 narc a133 - fix dex crashing (dex encounter data) - make all area unknown i guess
 - original file ranges:  2-496, 497-991, 992-1486, 1487-1981, 1982-2476, 2477-2971, 2972-3466, 3467-3961
+dex sorting crash
 
 TODO:
 narc a214 - dex orders for sorting
  - pokedex data/zukan_data.narc (a074)
- - with this, check out dex sorting crash
 
 make the btx0 editor work without a template btx0
 cries

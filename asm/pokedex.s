@@ -346,8 +346,6 @@ _21EE86A:
     .word 0x1030
 
 
-// this is literally where and how the crash is occurring and i can not get rid of it
-// expanding file 813 does not work
 .org 0x021EEBB6 // take care of a 1032, the same way?  oh?
 
     // new:
@@ -361,6 +359,9 @@ _21EE86A:
     nop
     ldr r1, [sp, #0x10]
     nop
+
+.org 0x021EEBCC // replace the international routine here with the normal one from the other call to patch2.  this fixes a crash.
+    bl 0x21EEA84
 
 .org 0x021EEBE0 // just a way to mark it as done
     .word 0x1030
