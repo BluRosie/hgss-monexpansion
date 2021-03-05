@@ -1,0 +1,29 @@
+.nds
+.thumb
+
+.create "a214/087.bin", 0x0
+
+.halfword SPECIES_GEODUDE
+.halfword SPECIES_MAGNEMITE
+.halfword SPECIES_GRIMER
+.halfword SPECIES_MUK
+.halfword SPECIES_HAUNTER
+.halfword SPECIES_GULPIN
+.halfword SPECIES_SWALOT
+.halfword SPECIES_SPOINK
+.halfword SPECIES_BALTOY
+.halfword SPECIES_CLAYDOL
+.halfword SPECIES_DUSKULL
+.halfword SPECIES_CHIMECHO
+.halfword SPECIES_METANG
+.halfword SPECIES_DRIFLOON
+.halfword SPECIES_DRIFBLIM
+.halfword SPECIES_BRONZONG
+.halfword SPECIES_MAGNEZONE
+.halfword SPECIES_PORYGON_Z
+.halfword SPECIES_DUSKNOIR
+.halfword SPECIES_FROSLASS
+.halfword SPECIES_PHIONE
+
+
+.close

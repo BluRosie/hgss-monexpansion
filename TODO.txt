@@ -28,6 +28,7 @@ dex sorting crash
 
 TODO:
 narc a214 - dex orders for sorting
+ - csplit --digits=2  --quiet --prefix= --suffix=%03d.s ../output.txt "/.close/+1" "{*}"
  - pokedex data/zukan_data.narc (a074)
 
 make the btx0 editor work without a template btx0

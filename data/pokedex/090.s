@@ -1,0 +1,32 @@
+.nds
+.thumb
+
+.create "a214/090.bin", 0x0
+
+.halfword SPECIES_SEEL
+.halfword SPECIES_DEWGONG
+.halfword SPECIES_GOLDEEN
+.halfword SPECIES_SEAKING
+.halfword SPECIES_MAGIKARP
+.halfword SPECIES_LAPRAS
+.halfword SPECIES_CHINCHOU
+.halfword SPECIES_LANTURN
+.halfword SPECIES_QWILFISH
+.halfword SPECIES_REMORAID
+.halfword SPECIES_CARVANHA
+.halfword SPECIES_SHARPEDO
+.halfword SPECIES_WAILMER
+.halfword SPECIES_WAILORD
+.halfword SPECIES_BARBOACH
+.halfword SPECIES_WHISCASH
+.halfword SPECIES_FEEBAS
+.halfword SPECIES_SPHEAL
+.halfword SPECIES_SEALEO
+.halfword SPECIES_RELICANTH
+.halfword SPECIES_LUVDISC
+.halfword SPECIES_KYOGRE
+.halfword SPECIES_FINNEON
+.halfword SPECIES_LUMINEON
+
+
+.close

@@ -1,0 +1,31 @@
+.nds
+.thumb
+
+.create "a214/091.bin", 0x0
+
+.halfword SPECIES_SHELLDER
+.halfword SPECIES_CLOYSTER
+.halfword SPECIES_GASTLY
+.halfword SPECIES_VOLTORB
+.halfword SPECIES_ELECTRODE
+.halfword SPECIES_KOFFING
+.halfword SPECIES_DITTO
+.halfword SPECIES_SUNKERN
+.halfword SPECIES_MISDREAVUS
+.halfword SPECIES_UNOWN
+.halfword SPECIES_PINECO
+.halfword SPECIES_FORRETRESS
+.halfword SPECIES_SILCOON
+.halfword SPECIES_CASCOON
+.halfword SPECIES_LUNATONE
+.halfword SPECIES_SOLROCK
+.halfword SPECIES_CASTFORM
+.halfword SPECIES_SHUPPET
+.halfword SPECIES_GLALIE
+.halfword SPECIES_CLAMPERL
+.halfword SPECIES_MISMAGIUS
+.halfword SPECIES_BRONZOR
+.halfword SPECIES_ROTOM
+
+
+.close

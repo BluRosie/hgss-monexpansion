@@ -1,0 +1,31 @@
+.nds
+.thumb
+
+.create "a214/078.bin", 0x0
+
+.halfword SPECIES_UMBREON
+.halfword SPECIES_MURKROW
+.halfword SPECIES_SNEASEL
+.halfword SPECIES_HOUNDOUR
+.halfword SPECIES_HOUNDOOM
+.halfword SPECIES_TYRANITAR
+.halfword SPECIES_POOCHYENA
+.halfword SPECIES_MIGHTYENA
+.halfword SPECIES_NUZLEAF
+.halfword SPECIES_SHIFTRY
+.halfword SPECIES_SABLEYE
+.halfword SPECIES_CARVANHA
+.halfword SPECIES_SHARPEDO
+.halfword SPECIES_CACTURNE
+.halfword SPECIES_CRAWDAUNT
+.halfword SPECIES_ABSOL
+.halfword SPECIES_HONCHKROW
+.halfword SPECIES_STUNKY
+.halfword SPECIES_SKUNTANK
+.halfword SPECIES_SPIRITOMB
+.halfword SPECIES_DRAPION
+.halfword SPECIES_WEAVILE
+.halfword SPECIES_DARKRAI
+
+
+.close

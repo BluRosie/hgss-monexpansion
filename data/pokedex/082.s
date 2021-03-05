@@ -1,0 +1,31 @@
+.nds
+.thumb
+
+.create "a214/082.bin", 0x0
+
+.halfword SPECIES_CATERPIE
+.halfword SPECIES_METAPOD
+.halfword SPECIES_WEEDLE
+.halfword SPECIES_KAKUNA
+.halfword SPECIES_EKANS
+.halfword SPECIES_ARBOK
+.halfword SPECIES_ONIX
+.halfword SPECIES_GYARADOS
+.halfword SPECIES_DRATINI
+.halfword SPECIES_DRAGONAIR
+.halfword SPECIES_DUNSPARCE
+.halfword SPECIES_STEELIX
+.halfword SPECIES_SLUGMA
+.halfword SPECIES_MAGCARGO
+.halfword SPECIES_PUPITAR
+.halfword SPECIES_WURMPLE
+.halfword SPECIES_SEVIPER
+.halfword SPECIES_MILOTIC
+.halfword SPECIES_HUNTAIL
+.halfword SPECIES_GOREBYSS
+.halfword SPECIES_RAYQUAZA
+.halfword SPECIES_BURMY
+.halfword SPECIES_WORMADAM
+
+
+.close

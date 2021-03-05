@@ -1,0 +1,26 @@
+.nds
+.thumb
+
+.create "a214/069.bin", 0x0
+
+.halfword SPECIES_GASTLY
+.halfword SPECIES_HAUNTER
+.halfword SPECIES_GENGAR
+.halfword SPECIES_MISDREAVUS
+.halfword SPECIES_SHEDINJA
+.halfword SPECIES_SABLEYE
+.halfword SPECIES_SHUPPET
+.halfword SPECIES_BANETTE
+.halfword SPECIES_DUSKULL
+.halfword SPECIES_DUSCLOPS
+.halfword SPECIES_DRIFLOON
+.halfword SPECIES_DRIFBLIM
+.halfword SPECIES_MISMAGIUS
+.halfword SPECIES_SPIRITOMB
+.halfword SPECIES_DUSKNOIR
+.halfword SPECIES_FROSLASS
+.halfword SPECIES_ROTOM
+.halfword SPECIES_GIRATINA
+
+
+.close

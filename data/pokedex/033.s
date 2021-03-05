@@ -1,0 +1,41 @@
+.nds
+.thumb
+
+.create "a214/033.bin", 0x0
+
+.halfword SPECIES_PACHIRISU
+.halfword SPECIES_PALKIA
+.halfword SPECIES_PARAS
+.halfword SPECIES_PARASECT
+.halfword SPECIES_PELIPPER
+.halfword SPECIES_PERSIAN
+.halfword SPECIES_PHANPY
+.halfword SPECIES_PHIONE
+.halfword SPECIES_PICHU
+.halfword SPECIES_PIDGEOT
+.halfword SPECIES_PIDGEOTTO
+.halfword SPECIES_PIDGEY
+.halfword SPECIES_PIKACHU
+.halfword SPECIES_PILOSWINE
+.halfword SPECIES_PINECO
+.halfword SPECIES_PINSIR
+.halfword SPECIES_PIPLUP
+.halfword SPECIES_PLUSLE
+.halfword SPECIES_POLITOED
+.halfword SPECIES_POLIWAG
+.halfword SPECIES_POLIWHIRL
+.halfword SPECIES_POLIWRATH
+.halfword SPECIES_PONYTA
+.halfword SPECIES_POOCHYENA
+.halfword SPECIES_PORYGON
+.halfword SPECIES_PORYGON_Z
+.halfword SPECIES_PORYGON2
+.halfword SPECIES_PRIMEAPE
+.halfword SPECIES_PRINPLUP
+.halfword SPECIES_PROBOPASS
+.halfword SPECIES_PSYDUCK
+.halfword SPECIES_PUPITAR
+.halfword SPECIES_PURUGLY
+
+
+.close

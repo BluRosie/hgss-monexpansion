@@ -1,0 +1,27 @@
+.nds
+.thumb
+
+.create "a214/077.bin", 0x0
+
+.halfword SPECIES_DRATINI
+.halfword SPECIES_DRAGONAIR
+.halfword SPECIES_DRAGONITE
+.halfword SPECIES_KINGDRA
+.halfword SPECIES_VIBRAVA
+.halfword SPECIES_FLYGON
+.halfword SPECIES_ALTARIA
+.halfword SPECIES_BAGON
+.halfword SPECIES_SHELGON
+.halfword SPECIES_SALAMENCE
+.halfword SPECIES_LATIAS
+.halfword SPECIES_LATIOS
+.halfword SPECIES_RAYQUAZA
+.halfword SPECIES_GIBLE
+.halfword SPECIES_GABITE
+.halfword SPECIES_GARCHOMP
+.halfword SPECIES_DIALGA
+.halfword SPECIES_PALKIA
+.halfword SPECIES_GIRATINA
+
+
+.close

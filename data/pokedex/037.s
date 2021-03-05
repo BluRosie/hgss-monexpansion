@@ -1,0 +1,30 @@
+.nds
+.thumb
+
+.create "a214/037.bin", 0x0
+
+.halfword SPECIES_TAILLOW
+.halfword SPECIES_TANGELA
+.halfword SPECIES_TANGROWTH
+.halfword SPECIES_TAUROS
+.halfword SPECIES_TEDDIURSA
+.halfword SPECIES_TENTACOOL
+.halfword SPECIES_TENTACRUEL
+.halfword SPECIES_TOGEKISS
+.halfword SPECIES_TOGEPI
+.halfword SPECIES_TOGETIC
+.halfword SPECIES_TORCHIC
+.halfword SPECIES_TORKOAL
+.halfword SPECIES_TORTERRA
+.halfword SPECIES_TOTODILE
+.halfword SPECIES_TOXICROAK
+.halfword SPECIES_TRAPINCH
+.halfword SPECIES_TREECKO
+.halfword SPECIES_TROPIUS
+.halfword SPECIES_TURTWIG
+.halfword SPECIES_TYPHLOSION
+.halfword SPECIES_TYRANITAR
+.halfword SPECIES_TYROGUE
+
+
+.close

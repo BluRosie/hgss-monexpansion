@@ -1,0 +1,33 @@
+.nds
+.thumb
+
+.create "a214/063.bin", 0x0
+
+.halfword SPECIES_MANKEY
+.halfword SPECIES_PRIMEAPE
+.halfword SPECIES_POLIWRATH
+.halfword SPECIES_MACHOP
+.halfword SPECIES_MACHOKE
+.halfword SPECIES_MACHAMP
+.halfword SPECIES_HITMONLEE
+.halfword SPECIES_HITMONCHAN
+.halfword SPECIES_HERACROSS
+.halfword SPECIES_TYROGUE
+.halfword SPECIES_HITMONTOP
+.halfword SPECIES_COMBUSKEN
+.halfword SPECIES_BLAZIKEN
+.halfword SPECIES_BRELOOM
+.halfword SPECIES_MAKUHITA
+.halfword SPECIES_HARIYAMA
+.halfword SPECIES_MEDITITE
+.halfword SPECIES_MEDICHAM
+.halfword SPECIES_MONFERNO
+.halfword SPECIES_INFERNAPE
+.halfword SPECIES_RIOLU
+.halfword SPECIES_LUCARIO
+.halfword SPECIES_CROAGUNK
+.halfword SPECIES_TOXICROAK
+.halfword SPECIES_GALLADE
+
+
+.close
