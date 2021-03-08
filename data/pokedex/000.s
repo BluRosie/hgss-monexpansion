@@ -548,3 +548,5 @@
 /* SPECIES_542             */ //.word 0x00
 /* SPECIES_543             */ //.word 0x00
 /* SPECIES_VICTINI         */ //.word 0x00
+
+.close

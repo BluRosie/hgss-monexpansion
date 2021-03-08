@@ -551,3 +551,5 @@
 /* SPECIES_542             */ //.word 69
 /* SPECIES_543             */ //.word 69
 /* SPECIES_VICTINI         */ //.word 40
+
+.close

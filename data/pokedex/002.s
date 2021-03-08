@@ -548,3 +548,5 @@
 /* SPECIES_542             */ //.byte 0x00
 /* SPECIES_543             */ //.byte 0x00
 /* SPECIES_VICTINI         */ //.byte 0x00
+
+.close
