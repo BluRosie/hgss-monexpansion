@@ -496,6 +496,7 @@
 .halfword SPECIES_DARKRAI
 .halfword SPECIES_SHAYMIN
 .halfword SPECIES_ARCEUS
+.halfword SPECIES_VICTINI
 
 
 .close
