@@ -6,19 +6,9 @@
 .include "include/monnums.s"
 .include "asm/overworlds.s"
 
-.if (NUM_OF_MONS - 1) > SPECIES_ROTOM_MOW
-    .if fileexists("a028_0.bin") == 1
-        .open "a028_0.bin", 0x023C8000
-    .else
-        .create "a028_0.bin", 0x023C8000
-    .endif
-.else
-    .open "arm9.bin", 0x02000000
+.open "a028_0.bin", 0x023C8000
 
-    .orga 0xFF088 // begin mon ow num table
-.endif
-
-.area NUM_OF_MONS * 2, 0xFF
+.area (NUM_OF_MONS+1) * 2, 0xFF //+1 to account for SPECIES_NONE
 
 // the mon ow num table maps each species to the overworld file that represents it (after 297)
 // this number is primarily used for narc a141 access (specific bits determining whether or not a pokemon can be inside, etc.)
@@ -577,15 +567,6 @@ gSpeciesToOWNum:
 
 
 // gOWTagToFileNum maps each overworld tag to its file number in a081.
-
-
-.if (NUM_OF_MONS - 1) <= SPECIES_ARCEUS
-    .close
-
-    .open "overlay9_0001.bin", 0x021E5900
-
-    .orga 0x21BA8 // begin mon ow num table
-.endif
 
 .align
 

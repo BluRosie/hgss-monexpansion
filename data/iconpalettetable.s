@@ -5,25 +5,15 @@
 .include "include/monnums.s"
 .include "asm/icons.s"
 
-.if ((NUM_OF_MONS - 1) > SPECIES_ROTOM_MOW)
-    .if fileexists("a028_0.bin") == 1
-		.open "a028_0.bin", 0x023C8000
-	.else
-		.create "a028_0.bin", 0x023C8000
-	.endif
-	
-	.orga (NUM_OF_MONS * 2) + ((NUM_OF_MON_OVERWORLDS + 350) * 6)
-.else
-    .open "arm9.bin", 0x02000000
+.open "a028_0.bin", 0x023C8000
 
-    .orga 0xFFC10 // begin icon palette table
-.endif
-
-.area NUM_OF_MONS > 544 ? NUM_OF_MONS + 3 : 544, 0xFF
+.orga ((NUM_OF_MONS+1) * 2) + ((NUM_OF_MON_OVERWORLDS + 350) * 6)
 
 // the icon palette table maps each icon to which of the 3 icon palettes
 
 .align
+
+.area (NUM_OF_MONS+1), 0xFF // +1 to account for SPECIES_NONE
 
 gIconPalTable:
 /* SPECIES_NONE            */ .byte 00

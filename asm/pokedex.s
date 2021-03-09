@@ -7,7 +7,7 @@ ALWAYS_HAVE_NATIONAL_DEX equ 1
 
 
 // make the entire pokedex changes contingent on expansion
-.if (NUM_OF_MONS - 1) > SPECIES_ARCEUS
+.if (NUM_OF_MONS) > SPECIES_ARCEUS
 
 
 .orga 0x19C // probably, just making sure
@@ -287,9 +287,6 @@ _return_21E86DE:
     ldr r0, [r5, r0] // instead of add r0, r5, r0
 
 
-
-// FUCK.
-
 .org 0x021EE854 // get the 1032 out
 
     add r1, r0, #2 // old:  add r1, r6, r0 // add 2 to the offset again
@@ -394,10 +391,6 @@ _21EED32:
 .org 0x021EED64 // maintain original pool location
 
 .pool
-
-
-.org 0x021F0782 // patch out international thing?
-	bl 0x21EEA84
 
 
 .org 0x021F1598 // get the 1030 out

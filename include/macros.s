@@ -168,7 +168,7 @@
 	
 	.halfword baby
 	
-	.if species == (NUM_OF_MONS - 1)
+	.if species == NUM_OF_MONS
 		.close
 	.endif
 .endmacro
