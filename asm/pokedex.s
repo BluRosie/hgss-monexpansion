@@ -10,7 +10,7 @@ ALWAYS_HAVE_NATIONAL_DEX equ 1
 .if (NUM_OF_MONS) > SPECIES_ARCEUS
 
 
-.orga 0x19C // probably, just making sure
+.orga 0x19C
 
 .word NUM_OF_MONS
 
@@ -234,7 +234,7 @@ e0: // entry 0
     b _return_21E86DE
 
 e1: // entry 1
-    ldr r3, =(2 + (NUM_OF_MONS)) // each entry sequentially adds (NUM_OF_MONS + 2) ?  or just NUM_OF_MONS?  or padding until the row is complete?
+    ldr r3, =(2 + (NUM_OF_MONS)) // each entry sequentially adds (NUM_OF_MONS + 2) in vanilla.  no reason, we just add NUM_OF_MONS
     b _return_21E86DE
 
 e2: // entry 2
@@ -289,7 +289,7 @@ _return_21E86DE:
 
 .org 0x021EE854 // get the 1032 out
 
-    add r1, r0, #2 // old:  add r1, r6, r0 // add 2 to the offset again
+    add r1, r0, #2 // old:  add r1, r6, r0 // add 2 to the offset
     ldr r0, =0x1030 // old:  ldr r0, =0x1032
     ldr r0, [r6, r0] // new:  load 1030 list from workspace
     ldrh r0, [r1, r0]
@@ -541,11 +541,11 @@ sub_21F2EC8: // just rewriting this one entirely, huge optimization = no need to
 
 .org 0x021F7EE0 // edit a 878 out
 
-    ldr r1, [r5, r2] // old:  add r1, r5, r2 // might not need this one
+    ldr r1, [r5, r2] // old:  add r1, r5, r2
 
 .org 0x021F813A // edit another 878 out
 
-    ldr r0, [r5, r0] // old:  add r0, r5, r0 // works as intended
+    ldr r0, [r5, r0] // old:  add r0, r5, r0
 
 
 .org 0x021F8160
@@ -621,7 +621,7 @@ sub_21F8838:
 
     // new:
     ldr r1, =0x1030
-    ldr r1, [r4, r1] // load 1030 table into r1 // works as intended
+    ldr r1, [r4, r1] // load 1030 table into r1
 
     // old:
     /*add r1, r4, r0
@@ -715,7 +715,7 @@ _21F88D6:
     bls _return_21F88FE
 
     // old:
-    /*ldr r3, =0x1034 // ?  needs to be 0x102C for r7 below but poke_list+4?
+    /*ldr r3, =0x1034 // poke_list+4 to let the sort tab have an entry
     ldr r4, =0x87A
     //mov r7, r3 // r7 is already 0x102C
     mov r0, r5
@@ -727,7 +727,6 @@ _21F88D6:
     ldr r3, =0x1030
     ldr r2, [r5, r2]
     ldr r3, [r5, r3]
-    //add r2, #4 // skip an entry for the dex sort info thing
     add r3, #4 // skip an entry for the dex sort info thing
     mov r0, #0
 
@@ -746,9 +745,6 @@ _21F88EA:
     // new:
     ldr r4, [r2, r0] // load mon from 878 and store in 1034
     str r4, [r3, r0]
-    //add r0, #2
-    //ldrh r4, [r2, r0] // load seen/caught status from 878 and store in 1034
-    //strh r4, [r3, r0]
 
     // old:
     /*ldrh r2, [r0, r2] // load each entry from 878 and write to 1034
@@ -843,7 +839,7 @@ allocate_lists:
     push {r0-r7, lr}
     mov r5, r4 // r5 = p->workspace
 
-    // allocate for 878 table - extra entries are to ensure no garbage data at the end
+    // allocate for 878 table - extra (19) entries are to ensure no garbage data gets displayed at the end
 
     mov r0, #0x25 // heapid
     ldr r1, =((NUM_OF_MONS + 19) * 4)
