@@ -64,6 +64,7 @@
 .halfword SPECIES_DITTO
 .halfword SPECIES_MEW
 .halfword SPECIES_SEEDOT
+.halfword SPECIES_VICTINI
 .halfword SPECIES_MEOWTH
 .halfword SPECIES_PLUSLE
 .halfword SPECIES_MINUN

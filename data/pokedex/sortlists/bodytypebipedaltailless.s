@@ -82,6 +82,7 @@
 .halfword SPECIES_REGIGIGAS
 .halfword SPECIES_MANAPHY
 .halfword SPECIES_DARKRAI
+.halfword SPECIES_VICTINI
 
 
 .close

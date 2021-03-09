@@ -56,6 +56,7 @@
 .halfword SPECIES_MESPRIT
 .halfword SPECIES_AZELF
 .halfword SPECIES_CRESSELIA
+.halfword SPECIES_VICTINI
 
 
 .close

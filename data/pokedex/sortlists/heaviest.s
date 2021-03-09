@@ -440,6 +440,7 @@
 .halfword SPECIES_DITTO
 .halfword SPECIES_MEW
 .halfword SPECIES_SEEDOT
+.halfword SPECIES_VICTINI
 .halfword SPECIES_QWILFISH
 .halfword SPECIES_PACHIRISU
 .halfword SPECIES_GLAMEOW

@@ -814,9 +814,27 @@ _21F892A:
 
 .open "arm9.bin", 0x2000000
 
+// r0 = sort list probably
+// r1 = species
+.org 0x02074930 // rewrite get_dex_num
+
+.area 0x14, 0xFF
+
+get_dex_num: // god i wish this could be well-rewritten
+    push {lr}
+    bl get_dex_num_patch
+    pop {pc}
+
+.pool
+
+.endarea
+
+
 .org 0x020FF088 // where the old gSpeciesToOWNum table was
 
-// still need to call 0x201AACC (AllocMemory_Lo) with a heapid (r0) of 0x25, and size (r1) of mons_no*4
+.area 0x3DA // make sure we are not overflowing out of old space
+
+// still need to call 0x201AA8C (AllocMemory) with a heapid (r0) of 0x25, and size (r1) of mons_no*4
 // then call 0x20E5B44 (memset) with r0 = p->poke_list, r1 = 0, r2 = size (mons_no*4)
 // call 0x201AB0C (sys_FreeMemoryEz) with the pointer in r0 to free up the memory upon destroying dex
 
@@ -917,6 +935,28 @@ patch3: // load 1030 list, return with entry in r0
 
 .pool
 
+// r1 = species
+get_dex_num_patch:
+    push {lr}
+    cmp r0, #0
+    bne @@_getNationalNum
+    mov r0, r1
+    bl 0x207185C // get_regional_dex_num
+    b @@_return
+
+@@_getNationalNum:
+    ldr r0, =SPECIES_ARCEUS
+    cmp r1, r0
+    ble @@_return_r1
+    sub r1, #50
+@@_return_r1:
+    mov r0, r1
+@@_return:
+    pop {pc}
+
+.pool
+
+.endarea
 
 .close
 

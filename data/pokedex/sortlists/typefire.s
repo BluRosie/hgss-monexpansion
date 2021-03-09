@@ -36,6 +36,7 @@
 .halfword SPECIES_INFERNAPE
 .halfword SPECIES_MAGMORTAR
 .halfword SPECIES_HEATRAN
+.halfword SPECIES_VICTINI
 
 
 .close

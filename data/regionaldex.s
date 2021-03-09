@@ -500,7 +500,20 @@
 /* SPECIES_DARKRAI         */ .halfword 0
 /* SPECIES_SHAYMIN         */ .halfword 0
 /* SPECIES_ARCEUS          */ .halfword 0
-
+/* SPECIES_EGG             */ .halfword 0
+/* SPECIES_BAD_EGG         */ .halfword 0
+/* SPECIES_DEOXYS_ATTACK   */ .halfword 0
+/* SPECIES_DEOXYS_DEFENSE  */ .halfword 0
+/* SPECIES_DEOXYS_SPEED    */ .halfword 0
+/* SPECIES_WORMADAM_SANDY  */ .halfword 0
+/* SPECIES_WORMADAM_TRASHY */ .halfword 0
+/* SPECIES_GIRATINA_ORIGIN */ .halfword 0
+/* SPECIES_SHAYMIN_SKY     */ .halfword 0
+/* SPECIES_ROTOM_HEAT      */ .halfword 0
+/* SPECIES_ROTOM_WASH      */ .halfword 0
+/* SPECIES_ROTOM_FROST     */ .halfword 0
+/* SPECIES_ROTOM_FAN       */ .halfword 0
+/* SPECIES_ROTOM_MOW       */ .halfword 0
 /* SPECIES_508             */ .halfword 0
 /* SPECIES_509             */ .halfword 0
 /* SPECIES_510             */ .halfword 0
