@@ -31,7 +31,6 @@ narc a214 - dex orders for sorting
  - pokedex data/zukan_data.narc (a074) - seems unused
 
 TODO:
-dex expand 811, 813, 815
 cries
 make the btx0 editor work without a template btx0
 
