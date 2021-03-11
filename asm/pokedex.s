@@ -10,9 +10,6 @@ ALWAYS_HAVE_NATIONAL_DEX equ 1
 .if (NUM_OF_MONS) > SPECIES_ARCEUS
 
 
-.orga 0x19C
-
-.word NUM_OF_MONS
 
 
 // here, we need to allocate memory space for the two new poke_lists and store them at workspace+0x878 and workspace+0x1030
@@ -21,6 +18,17 @@ ALWAYS_HAVE_NATIONAL_DEX equ 1
 // we then need to change how each is accessed/written to
 // UPDATE:  apparently workspace+0x1032 is referenced outside of 0x1030.  love to see it, that adds a few more
 //   literally 10 more by the way.  holy shit.
+
+
+.org 0x021E5A9C
+
+.word NUM_OF_MONS
+
+
+.org 0x021E5AA2 // expand the ram usable by the dex (give about 12 more kb just in case)
+    mov r2, #0x64 // old:  mov r2, #0x61
+	// later lsl'd by 0xC to get space to pass to 0x201A910
+
 
 .org 0x021E5AD0 // branch out of the init function
     // r4 = p->workspace
@@ -360,9 +368,6 @@ _21EE86A:
     ldr r1, [sp, #0x10]
     nop
 
-.org 0x021EEBCC // replace the international routine here with the normal one from the other call to patch2.  this fixes a crash.
-    bl 0x21EEA84
-
 .org 0x021EEBE0 // just a way to mark it as done
     .word 0x1030
 
@@ -536,7 +541,6 @@ sub_21F2EC8: // just rewriting this one entirely, huge optimization = no need to
     pop {r3, pc}
 
 .pool
-
 
 
 .org 0x021F7EE0 // edit a 878 out
