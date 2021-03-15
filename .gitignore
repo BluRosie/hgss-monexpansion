@@ -5,3 +5,4 @@ filetomatch
 *.bin
 text/tmp_base/*
 *.nds
+*.sdat

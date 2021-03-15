@@ -27,7 +27,7 @@ ALWAYS_HAVE_NATIONAL_DEX equ 1
 
 .org 0x021E5AA2 // expand the ram usable by the dex (give about 12 more kb just in case)
     mov r2, #0x64 // old:  mov r2, #0x61
-	// later lsl'd by 0xC to get space to pass to 0x201A910
+	// later lsld by 0xC to get space to pass to 0x201A910
 
 
 .org 0x021E5AD0 // branch out of the init function
