@@ -8,3 +8,5 @@ text/tmp_base/*
 *.sdat
 *.swav
 *.swar
+
+!*gs_sound_data.sdat

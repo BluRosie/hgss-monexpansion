@@ -134,20 +134,15 @@ run scripts/makedexdata.bat in the root directory
 
 insert narc a214 over top of what was previously there
 
-# leftover stupid things
- this is literally useless but i documented it!  it does nothing but hey!!
+### make all the mon cries
+currently, the sound directory contains wav files of each of the pokemon gens 1-5.  edit as you please
 
-### make the mon shadow size narc
-run scripts/leftovers/makeshadowsizetable.bat in the root directory
+run scripts\makecries.bat in the root directory
 
-insert narc a135 over top of what was previously there
+copy gs_sound_data.sdat from the rawdata folder.  this is slightly modified gs_sound_data that has spaces for pokemon up to index 900
 
-### make the mon shadow offset narc
-run scripts/leftovers/makeshadowoffsettable.bat in the root directory
+using nitro studio 2 (the tool by gota7), open the sdat file and the "Wave Archive" folder and replace WAVE_ARC_PV544 and up with each new cry sdat
 
-insert narc a137 over top of what was previously there
+in the future, i will provide one with all the pokemon that have data.
 
-### make the mon y offset narc
-run scripts/leftovers/makeyoffsettable.bat in the root directory
-
-insert narc a132 over top of what was previously there
+credits to Barro, ProfessorDoktorGamer, and Gota7 for swav2swar, wav2sav, and nitro studio respectively
