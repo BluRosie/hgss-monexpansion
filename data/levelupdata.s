@@ -8426,3 +8426,21 @@ levelup SPECIES_VICTINI
     learnset MOVE_HIDDEN_POWER, 89 // stored power
     learnset MOVE_OVERHEAT, 97 
     terminatelearnset
+
+levelup SPECIES_SNIVY
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_LEER, 4
+    learnset MOVE_VINE_WHIP, 7
+    learnset MOVE_WRAP, 10
+    learnset MOVE_GROWTH, 13
+    learnset MOVE_PETAL_DANCE, 16 // leaf tornado
+    learnset MOVE_LEECH_SEED, 19
+    learnset MOVE_MEGA_DRAIN, 22
+    learnset MOVE_SLAM, 25
+    learnset MOVE_LEAF_BLADE, 28
+    learnset MOVE_BIND, 31 // coil
+    learnset MOVE_GIGA_DRAIN, 34
+    learnset MOVE_WRING_OUT, 37
+    learnset MOVE_GASTRO_ACID, 40
+    learnset MOVE_LEAF_STORM, 43
+    terminatelearnset

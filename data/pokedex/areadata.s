@@ -19952,3 +19952,35 @@ specialareas SPECIES_VICTINI, DEX_SPECIAL
 
 routesandcities SPECIES_VICTINI, DEX_SPECIAL
     dexendareadata
+
+
+specialareas SPECIES_SNIVY, DEX_MORNING
+    dexendareadata
+
+
+specialareas SPECIES_SNIVY, DEX_DAY
+    dexendareadata
+
+
+specialareas SPECIES_SNIVY, DEX_NIGHT
+    dexendareadata
+
+
+routesandcities SPECIES_SNIVY, DEX_MORNING
+    dexendareadata
+
+
+routesandcities SPECIES_SNIVY, DEX_DAY
+    dexendareadata
+
+
+routesandcities SPECIES_SNIVY, DEX_NIGHT
+    dexendareadata
+
+
+specialareas SPECIES_SNIVY, DEX_SPECIAL
+    dexendareadata
+
+
+routesandcities SPECIES_SNIVY, DEX_SPECIAL
+    dexendareadata

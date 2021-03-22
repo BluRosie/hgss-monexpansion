@@ -58,6 +58,7 @@
 .halfword SPECIES_TANGROWTH
 .halfword SPECIES_LEAFEON
 .halfword SPECIES_SHAYMIN
+.halfword SPECIES_SNIVY
 
 
 .close

@@ -5965,5 +5965,15 @@ tutordata SPECIES_VICTINI, \
                   \
                   0
 
+tutordata SPECIES_SNIVY, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
 
 .close

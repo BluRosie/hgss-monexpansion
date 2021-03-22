@@ -561,6 +561,7 @@ gSpeciesToOWNum:
 /* SPECIES_542             */ .halfword 0
 /* SPECIES_543             */ .halfword 0
 /* SPECIES_VICTINI         */ .halfword 566
+/* SPECIES_SNIVY           */ .halfword 567
 
 .endarea
 
@@ -1486,7 +1487,8 @@ gOWTagToFileNum:  // skip down a bit to see the parts that are specifically for 
 .halfword  991, 860, OVERWORLD_SIZE_LARGE
 .halfword  992, 861, OVERWORLD_SIZE_LARGE
 .halfword  993, 862, OVERWORLD_SIZE_LARGE
-.halfword 1050, 863, OVERWORLD_SIZE_SMALL // new tag for victini (will probably just rearrange around the npc mons)
+.halfword 1050, 863, OVERWORLD_SIZE_SMALL // new tag for victini
+.halfword 1051, 864, OVERWORLD_SIZE_SMALL
 .halfword 0xFFFF
 
 
@@ -2047,6 +2049,7 @@ gDimorphismTable:
 /* SPECIES_542             */ .byte 0
 /* SPECIES_543             */ .byte 0
 /* SPECIES_VICTINI         */ .byte 0
+/* SPECIES_SNIVY           */ .byte 0
 
 .endarea
 
@@ -2623,3 +2626,4 @@ overworlddata 563,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW
 overworlddata 564,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW
 overworlddata 565,  OVERWORLD_NO_ENTRY, OVERWORLD_BOUNCE_SLOW
 overworlddata 566, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST // new file for victini
+overworlddata 567, OVERWORLD_CAN_ENTER, OVERWORLD_BOUNCE_FAST

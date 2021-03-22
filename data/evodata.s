@@ -5464,3 +5464,13 @@ evodata SPECIES_VICTINI
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
+evodata SPECIES_SNIVY
+    evolution EVO_NONE, 0, SPECIES_SERVINE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+

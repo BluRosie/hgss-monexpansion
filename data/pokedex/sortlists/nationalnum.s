@@ -497,6 +497,7 @@
 .halfword SPECIES_SHAYMIN
 .halfword SPECIES_ARCEUS
 .halfword SPECIES_VICTINI
+.halfword SPECIES_SNIVY
 
 
 .close

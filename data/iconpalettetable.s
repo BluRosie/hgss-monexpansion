@@ -561,6 +561,7 @@ gIconPalTable:
 /* castform ice            */ .byte 00
 /* cherrim sun             */ .byte 01
 /* SPECIES_VICTINI         */ .byte 00
+/* SPECIES_SNIVY           */ .byte 01
 
 .endarea
 

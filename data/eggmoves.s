@@ -2449,4 +2449,16 @@ eggmoveentry SPECIES_SNOVER
     eggmove MOVE_STOMP
     eggmove MOVE_SKULL_BASH
 
+eggmoveentry SPECIES_SNIVY
+    eggmove MOVE_CAPTIVATE
+    eggmove MOVE_GLARE
+    eggmove MOVE_IRON_TAIL
+    eggmove MOVE_MAGICAL_LEAF
+    eggmove MOVE_MEAN_LOOK
+    eggmove MOVE_MIRROR_COAT
+    eggmove MOVE_NATURAL_GIFT
+    eggmove MOVE_PURSUIT
+    eggmove MOVE_SWEET_SCENT
+    eggmove MOVE_TWISTER
+
 terminateeggmoves

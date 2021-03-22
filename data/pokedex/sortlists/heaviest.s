@@ -389,6 +389,7 @@
 .halfword SPECIES_MARILL
 .halfword SPECIES_SUNFLORA
 .halfword SPECIES_WOOPER
+.halfword SPECIES_SNIVY
 .halfword SPECIES_HORSEA
 .halfword SPECIES_CYNDAQUIL
 .halfword SPECIES_MAREEP

@@ -555,3 +555,4 @@ heightentry SPECIES_541, "null", "null", "null", "null"
 heightentry SPECIES_542, "null", "null", "null", "null"
 heightentry SPECIES_543, "null", "null", "null", "null"
 heightentry SPECIES_VICTINI, "null", 0, "null", 0
+heightentry SPECIES_SNIVY, 0, 0, 0, 0

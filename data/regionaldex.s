@@ -551,5 +551,6 @@
 /* SPECIES_542             */ .halfword 0
 /* SPECIES_543             */ .halfword 0
 /* SPECIES_VICTINI         */ .halfword 0
+/* SPECIES_SNIVY           */ .halfword 0
 
 .close

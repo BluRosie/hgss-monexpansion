@@ -111,6 +111,7 @@
 .halfword SPECIES_MESPRIT
 .halfword SPECIES_AZELF
 .halfword SPECIES_PALKIA
+.halfword SPECIES_SNIVY
 
 
 .close
