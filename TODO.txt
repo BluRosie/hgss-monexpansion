@@ -35,7 +35,9 @@ cries (gs_sound_data.sdat)
 
 
 TODO:
-todo:  title screen doesn't load music anymore.  need to expand ram used in title screen?
+title screen doesn't load music anymore.  need to expand ram used in title screen?
+search results still process as something even when loading nothing
+- visual and completely harmless
 
 footprints/pokefoot.narc (a069) - maybe add at a later date
 height order?/height_o.narc (a117)
