@@ -29,12 +29,13 @@ dex sorting crash
 narc a214 - dex orders for sorting
  - csplit --digits=2  --quiet --prefix= --suffix=%03d.s ../output.txt "/.close/+1" "{*}"
  - pokedex data/zukan_data.narc (a074) - seems unused
+ 
+cries (gs_sound_data.sdat)
+
+
 
 TODO:
-cries
-make the btx0 editor work without a template btx0
-
-TODO (eventually):
+todo:  title screen doesn't load music anymore.  need to expand ram used in title screen?
 
 footprints/pokefoot.narc (a069) - maybe add at a later date
 height order?/height_o.narc (a117)

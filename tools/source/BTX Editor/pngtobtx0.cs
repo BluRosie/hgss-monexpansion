@@ -16,21 +16,18 @@ namespace BTX_Editor
 		{
 			String pngFile;
 			
-			if (args.Length != 2)
+			if (args.Length != 1)
 			{
-				Console.WriteLine("pngtobtx0 reimplements png images into specified btx0 files.  specifically made for hgss' a081 narc.\nUsage:  pngtobtx0 [png file] [btx0 file]");
+				Console.WriteLine("pngtobtx0 reimports png images into a template btx0 file.\nin this repository, it is used with the template btx0's in rawdata specifically.\nspecifically made for hgss' a081 narc and for usage with hgss-monexpansion.\nUsage:  pngtobtx0 [png file] [btx0 file]");
 			}
 
 			try
 			{
-				this.BTXFile = File.ReadAllBytes(args[1]);
+				this.BTXFile = File.ReadAllBytes("rawdata\\a081_smallmon");
 			}
 			catch (Exception e)
 			{
-				if (args[1].Contains("shiny"))
-					return;
-				else
-					Console.WriteLine(e.Message);
+				Console.WriteLine(e.Message);
 
 				return;
 			}
@@ -51,13 +48,35 @@ namespace BTX_Editor
 				}
 
 				Bitmap shinymap = new Bitmap(pngFile + "_shiny.png");
+
+				if (pngFile.Contains("graphics\\overworlds\\"))
+				{
+					pngFile = pngFile.Substring("graphics\\overworlds\\".Length, pngFile.Length - "graphics\\overworlds\\".Length);
+				}
+
+				if (shinymap.Width > 32) // if a big mon
+				{
+					try
+					{
+						this.BTXFile = File.ReadAllBytes("rawdata\\a081_bigmon");
+					}
+					catch (Exception e)
+					{
+						Console.WriteLine(e.Message);
+
+						return;
+					}
+
+					this.bm = BTX0.Read(this.BTXFile);
+				}
+				
 				if (this.bm.Width == shinymap.Width && this.bm.Height == shinymap.Height)
 				{
 					if (this.GetColorCount(shinymap) <= Program.ColorCount)
 					{
 						this.BTXFile = BTX0.Write(this.BTXFile, shinymap);
 
-						File.WriteAllBytes(args[1], this.BTXFile);
+						File.WriteAllBytes("a081\\a081_" + pngFile, this.BTXFile);
 					}
 					else
 					{
@@ -73,17 +92,43 @@ namespace BTX_Editor
 			}
 
 			pngFile = args[0];
+			if (pngFile.Contains(".png"))
+			{
+				pngFile = pngFile.Substring(0, pngFile.Length - ".png".Length);
+			}
 
 			Program.PaletteIndex = 0U;
 
-			Bitmap bitmap = new Bitmap(pngFile);
+			Bitmap bitmap = new Bitmap(pngFile + ".png");
+
+			if (pngFile.Contains("graphics\\overworlds\\"))
+			{
+				pngFile = pngFile.Substring("graphics\\overworlds\\".Length, pngFile.Length - "graphics\\overworlds\\".Length);
+			}
+
+			if (bitmap.Width > 32) // if a big mon
+			{
+				try
+				{
+					this.BTXFile = File.ReadAllBytes("rawdata\\a081_bigmon");
+				}
+				catch (Exception e)
+				{
+					Console.WriteLine(e.Message);
+
+					return;
+				}
+
+				this.bm = BTX0.Read(this.BTXFile);
+			}
+
 			if (this.bm.Width == bitmap.Width && this.bm.Height == bitmap.Height)
 			{
 				if (this.GetColorCount(bitmap) <= Program.ColorCount)
 				{
 					this.BTXFile = BTX0.Write(this.BTXFile, bitmap);
 
-					File.WriteAllBytes(args[1], this.BTXFile);
+					File.WriteAllBytes("a081\\a081_" + pngFile, this.BTXFile);
 				}
 				else
 				{

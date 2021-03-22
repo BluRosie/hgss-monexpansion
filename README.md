@@ -18,6 +18,7 @@ run scripts/make.bat in the root directory
 
 replace all the generated files with their equivalents in the rom.  specifics can be seen below
 
+especially refer to the cries section below
 
 
 ### make the mon sprite data
@@ -87,7 +88,7 @@ run scripts/makespriteoffsets.bat in the root directory
 
 insert narc a180 over top of what was previously there
 
-TODO:  make a tool for visualizing this?
+todo:  make a tool for visualizing this?
 
 ### make the regional dex order
 run scripts/makeregionaldexorder.bat in the root directory
@@ -137,12 +138,15 @@ insert narc a214 over top of what was previously there
 ### make all the mon cries
 currently, the sound directory contains wav files of each of the pokemon gens 1-5.  edit as you please
 
+note that 494 and up are going to be 544 and up to represent their index numbers in this game.  just add 50 to gen 5 mons
+
 run scripts\makecries.bat in the root directory
 
 copy gs_sound_data.sdat from the rawdata folder.  this is slightly modified gs_sound_data that has spaces for pokemon up to index 900
 
-using nitro studio 2 (the tool by gota7), open the sdat file and the "Wave Archive" folder and replace WAVE_ARC_PV544 and up with each new cry sdat
+using nitro studio (the tool by gota7), open the sdat file and the "Wave Archive" folder and replace WAVE_ARC_PV544 and up with each new cry swar
+for example, WAVE_ARC_PV544 is going to be 544.swar in the swar folder that was created in the sound/ directory
 
-in the future, i will provide one with all the pokemon that have data.
+in the future, i will provide one with all the pokemon that have data
 
 credits to Barro, ProfessorDoktorGamer, and Gota7 for swav2swar, wav2sav, and nitro studio respectively
