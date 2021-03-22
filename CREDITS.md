@@ -18,3 +18,5 @@ ProfessorDoktorGamer - wav2sav
 nickworonekin - narchive
 
 Kingcom - armips
+
+Game Freak - amazing Pokémon games from way back when
