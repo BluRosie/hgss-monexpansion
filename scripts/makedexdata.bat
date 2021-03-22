@@ -1,4 +1,4 @@
 mkdir a214
-armips data\pokedex\pokedexdata.s
-narchive create a214.narc a214 -nf
+tools\armips data\pokedex\pokedexdata.s
+tools\narchive create a214.narc a214 -nf
 rmdir /q /s a214

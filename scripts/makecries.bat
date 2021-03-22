@@ -14,4 +14,4 @@ for /l %%F in (100, 1, 699) do (
  wav2swav %%F.wav -c -o swav\%%F.swav
  swav2swar swav\%%F.swav swar\%%F.swar))
 cd ..\
-armips asm\cries.s
+tools\armips asm\cries.s

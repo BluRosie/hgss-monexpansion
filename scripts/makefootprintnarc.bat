@@ -1,1 +1,1 @@
-narchive create a069.narc "rawdata/footprints" -nf
+tools\narchive create a069.narc "rawdata/footprints" -nf

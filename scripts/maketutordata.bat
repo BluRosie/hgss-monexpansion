@@ -1,1 +1,1 @@
-armips data\tutordata.s
+tools\armips data\tutordata.s
