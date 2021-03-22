@@ -6,6 +6,7 @@
 .org 0x021F73C4
 
 .halfword NUM_OF_MON_OVERWORLDS + 0x1E4 // update the limiter
+// 0x1E4 is the start of the follower mon tags
 
 
 .org 0x021F92FC

@@ -6,12 +6,6 @@ ALWAYS_HAVE_NATIONAL_DEX equ 1
 .open "overlay9_0018.bin", 0x021E5900
 
 
-// make the entire pokedex changes contingent on expansion
-.if (NUM_OF_MONS) > SPECIES_ARCEUS
-
-
-
-
 // here, we need to allocate memory space for the two new poke_lists and store them at workspace+0x878 and workspace+0x1030
 // so instead of allocating more size to the pokedex workspace, the goal here is just to allocate
 // enough space to two new poke_lists and place pointers to them inside the structure and change everything that references it.
@@ -935,6 +929,7 @@ patch3: // load 1030 list, return with entry in r0
 
 .pool
 
+
 // r1 = species
 get_dex_num_patch:
     push {lr}
@@ -947,7 +942,7 @@ get_dex_num_patch:
 @@_getNationalNum:
     ldr r0, =SPECIES_ARCEUS
     cmp r1, r0
-    ble @@_return_r1
+    ble @@_return_r1 // if not a new mon
     sub r1, #50
 @@_return_r1:
     mov r0, r1
@@ -1204,9 +1199,6 @@ PokedexInit: // rewrite the beginning for new struct size
 
     .org 0x0202A56E
         mov r0, #1
-
-.endif
-
 
 .endif
 
