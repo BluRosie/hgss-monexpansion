@@ -844,7 +844,7 @@ allocate_lists:
     bl 0x201AA8C // allocate the memory
 
     ldr r1, =0x878
-    str r0, [r5, r1] // workspace+0x878 = AllocMemory_Lo(0x25, NUM_OF_MONS * 4)
+    str r0, [r5, r1] // workspace+0x878 = AllocMemory(0x25, NUM_OF_MONS * 4)
 
     mov r1, #0
     ldr r2, =((NUM_OF_MONS + 19) * 4)
@@ -857,7 +857,7 @@ allocate_lists:
     bl 0x201AA8C // allocate the memory
 
     ldr r1, =0x1030
-    str r0, [r5, r1] // workspace+0x1030 = AllocMemory_Lo(0x25, NUM_OF_MONS * 4)
+    str r0, [r5, r1] // workspace+0x1030 = AllocMemory(0x25, NUM_OF_MONS * 4)
 
     mov r1, #0
     ldr r2, =((NUM_OF_MONS + 19) * 4)
