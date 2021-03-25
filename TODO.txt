@@ -36,7 +36,6 @@ cries (gs_sound_data.sdat)
 
 TODO:
 get gen 5 in
-- level up learnsets
 - mon data
 - regional dex data
 - tm learnset data
