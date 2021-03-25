@@ -5473,3 +5473,1544 @@ evodata SPECIES_SNIVY
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
+
+evodata SPECIES_SERVINE
+    evolution EVO_LEVEL_UP, 36, SPECIES_SERPERIOR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SERPERIOR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TEPIG
+    evolution EVO_LEVEL_UP, 17, SPECIES_PIGNITE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PIGNITE
+    evolution EVO_LEVEL_UP, 36, SPECIES_EMBOAR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_EMBOAR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_OSHAWOTT
+    evolution EVO_LEVEL_UP, 17, SPECIES_DEWOTT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DEWOTT
+    evolution EVO_LEVEL_UP, 36, SPECIES_SAMUROTT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SAMUROTT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PATRAT
+    evolution EVO_LEVEL_UP, 20, SPECIES_WATCHOG
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_WATCHOG
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_LILLIPUP
+    evolution EVO_LEVEL_UP, 16, SPECIES_HERDIER
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_HERDIER
+    evolution EVO_LEVEL_UP, 32, SPECIES_STOUTLAND
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_STOUTLAND
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PURRLOIN
+    evolution EVO_LEVEL_UP, 20, SPECIES_LIEPARD
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_LIEPARD
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PANSAGE
+    evolution EVO_USE_ITEM, ITEM_LEAF_STONE, SPECIES_SIMISAGE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SIMISAGE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PANSEAR
+    evolution EVO_USE_ITEM, ITEM_FIRE_STONE, SPECIES_SIMISEAR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SIMISEAR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PANPOUR
+    evolution EVO_USE_ITEM, ITEM_WATER_STONE, SPECIES_SIMIPOUR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SIMIPOUR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_MUNNA
+    evolution EVO_USE_ITEM, ITEM_MOON_STONE, SPECIES_MUSHARNA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_MUSHARNA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PIDOVE
+    evolution EVO_LEVEL_UP, 21, SPECIES_TRANQUILL
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TRANQUILL
+    evolution EVO_LEVEL_UP, 32, SPECIES_UNFEZANT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_UNFEZANT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_BLITZLE
+    evolution EVO_LEVEL_UP, 27, SPECIES_ZEBSTRIKA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ZEBSTRIKA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ROGGENROLA
+    evolution EVO_LEVEL_UP, 25, SPECIES_BOLDORE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_BOLDORE
+    evolution EVO_TRADE, 0, SPECIES_GIGALITH
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GIGALITH
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_WOOBAT
+    evolution EVO_HAPPINESS, 0, SPECIES_SWOOBAT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SWOOBAT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DRILBUR
+    evolution EVO_LEVEL_UP, 31, SPECIES_EXCADRILL
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_EXCADRILL
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_AUDINO
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TIMBURR
+    evolution EVO_LEVEL_UP, 25, SPECIES_GURDURR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GURDURR
+    evolution EVO_TRADE, 0, SPECIES_CONKELDURR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_CONKELDURR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TYMPOLE
+    evolution EVO_LEVEL_UP, 25, SPECIES_PALPITOAD
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PALPITOAD
+    evolution EVO_LEVEL_UP, 36, SPECIES_SEISMITOAD
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SEISMITOAD
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_THROH
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SAWK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SEWADDLE
+    evolution EVO_LEVEL_UP, 20, SPECIES_SWADLOON
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SWADLOON
+    evolution EVO_HAPPINESS, 0, SPECIES_LEAVANNY
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_LEAVANNY
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_VENIPEDE
+    evolution EVO_LEVEL_UP, 22, SPECIES_WHIRLIPEDE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_WHIRLIPEDE
+    evolution EVO_LEVEL_UP, 30, SPECIES_SCOLIPEDE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SCOLIPEDE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_COTTONEE
+    evolution EVO_USE_ITEM, ITEM_SUN_STONE, SPECIES_WHIMSICOTT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_WHIMSICOTT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PETILIL
+    evolution EVO_USE_ITEM, ITEM_SUN_STONE, SPECIES_LILLIGANT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_LILLIGANT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_BASCULIN
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SANDILE
+    evolution EVO_LEVEL_UP, 29, SPECIES_KROKOROK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_KROKOROK
+    evolution EVO_LEVEL_UP, 40, SPECIES_KROOKODILE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_KROOKODILE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DARUMAKA
+    evolution EVO_LEVEL_UP, 35, SPECIES_DARMANITAN
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DARMANITAN
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_MARACTUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DWEBBLE
+    evolution EVO_LEVEL_UP, 34, SPECIES_CRUSTLE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_CRUSTLE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SCRAGGY
+    evolution EVO_LEVEL_UP, 39, SPECIES_SCRAFTY
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SCRAFTY
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SIGILYPH
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_YAMASK
+    evolution EVO_LEVEL_UP, 34, SPECIES_COFAGRIGUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_COFAGRIGUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TIRTOUGA
+    evolution EVO_LEVEL_UP, 37, SPECIES_CARRACOSTA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_CARRACOSTA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ARCHEN
+    evolution EVO_LEVEL_UP, 37, SPECIES_ARCHEOPS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ARCHEOPS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TRUBBISH
+    evolution EVO_LEVEL_UP, 36, SPECIES_GARBODOR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GARBODOR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ZORUA
+    evolution EVO_LEVEL_UP, 30, SPECIES_ZOROARK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ZOROARK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_MINCCINO
+    evolution EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_CINCCINO
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_CINCCINO
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GOTHITA
+    evolution EVO_LEVEL_UP, 32, SPECIES_GOTHORITA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GOTHORITA
+    evolution EVO_LEVEL_UP, 41, SPECIES_GOTHITELLE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GOTHITELLE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SOLOSIS
+    evolution EVO_LEVEL_UP, 32, SPECIES_DUOSION
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DUOSION
+    evolution EVO_LEVEL_UP, 41, SPECIES_REUNICLUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_REUNICLUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DUCKLETT
+    evolution EVO_LEVEL_UP, 35, SPECIES_SWANNA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SWANNA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_VANILLITE
+    evolution EVO_LEVEL_UP, 35, SPECIES_VANILLISH
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_VANILLISH
+    evolution EVO_LEVEL_UP, 47, SPECIES_VANILLUXE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_VANILLUXE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DEERLING
+    evolution EVO_LEVEL_UP, 34, SPECIES_SAWSBUCK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SAWSBUCK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_EMOLGA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_KARRABLAST
+    evolution EVO_TRADE, 0, SPECIES_ESCAVALIER
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ESCAVALIER
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_FOONGUS
+    evolution EVO_LEVEL_UP, 39, SPECIES_AMOONGUSS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_AMOONGUSS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_FRILLISH
+    evolution EVO_LEVEL_UP, 40, SPECIES_JELLICENT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_JELLICENT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ALOMOMOLA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_JOLTIK
+    evolution EVO_LEVEL_UP, 36, SPECIES_GALVANTULA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GALVANTULA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_FERROSEED
+    evolution EVO_LEVEL_UP, 40, SPECIES_FERROTHORN
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_FERROTHORN
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_KLINK
+    evolution EVO_LEVEL_UP, 38, SPECIES_KLANG
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_KLANG
+    evolution EVO_LEVEL_UP, 49, SPECIES_KLINKLANG
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_KLINKLANG
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TYNAMO
+    evolution EVO_LEVEL_UP, 39, SPECIES_EELEKTRIK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_EELEKTRIK
+    evolution EVO_USE_ITEM, ITEM_THUNDERSTONE, SPECIES_EELEKTROSS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_EELEKTROSS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ELGYEM
+    evolution EVO_LEVEL_UP, 42, SPECIES_BEHEEYEM
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_BEHEEYEM
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_LITWICK
+    evolution EVO_LEVEL_UP, 41, SPECIES_LAMPENT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_LAMPENT
+    evolution EVO_USE_ITEM, ITEM_DUSK_STONE, SPECIES_CHANDELURE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_CHANDELURE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_AXEW
+    evolution EVO_LEVEL_UP, 38, SPECIES_FRAXURE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_FRAXURE
+    evolution EVO_LEVEL_UP, 48, SPECIES_HAXORUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_HAXORUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_CUBCHOO
+    evolution EVO_LEVEL_UP, 37, SPECIES_BEARTIC
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_BEARTIC
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_CRYOGONAL
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_SHELMET
+    evolution EVO_TRADE, 0, SPECIES_ACCELGOR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ACCELGOR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_STUNFISK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_MIENFOO
+    evolution EVO_LEVEL_UP, 50, SPECIES_MIENSHAO
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_MIENSHAO
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DRUDDIGON
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GOLETT
+    evolution EVO_LEVEL_UP, 43, SPECIES_GOLURK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GOLURK
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_PAWNIARD
+    evolution EVO_LEVEL_UP, 52, SPECIES_BISHARP
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_BISHARP
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_BOUFFALANT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_RUFFLET
+    evolution EVO_LEVEL_UP, 54, SPECIES_BRAVIARY
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_BRAVIARY
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_VULLABY
+    evolution EVO_LEVEL_UP, 54, SPECIES_MANDIBUZZ
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_MANDIBUZZ
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_HEATMOR
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DURANT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_DEINO
+    evolution EVO_LEVEL_UP, 50, SPECIES_ZWEILOUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ZWEILOUS
+    evolution EVO_LEVEL_UP, 64, SPECIES_HYDREIGON
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_HYDREIGON
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_LARVESTA
+    evolution EVO_LEVEL_UP, 59, SPECIES_VOLCARONA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_VOLCARONA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_COBALION
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TERRAKION
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_VIRIZION
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_TORNADUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_THUNDURUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_RESHIRAM
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_ZEKROM
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_LANDORUS
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_KYUREM
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_KELDEO
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_MELOETTA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
+evodata SPECIES_GENESECT
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
