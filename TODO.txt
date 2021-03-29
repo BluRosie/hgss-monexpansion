@@ -36,11 +36,7 @@ cries (gs_sound_data.sdat)
 
 TODO:
 get gen 5 in
-- mon data
-- regional dex data
-- tm learnset data
-- tutor learnset data
-- icon palette table
+- icons
 - overworld data
 - sprite offsets
 - dex data
