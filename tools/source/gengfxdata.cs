@@ -18,20 +18,22 @@ namespace PlatinumSpriteEditor
 
 		public MainForm(string[] args)
 		{
-			int i;
+			int i, totalMons;
 
 			//Console.WriteLine("{0}", args[0]);
 
-			if (args.Length != 2)
+			if (args.Length != 3)
 			{
-				Console.WriteLine("gengfxdata converts Nintendo's ncgr format to pngs for use with HGSS Sprites\n\nUsage:  gengfxdata [path to unpacked a004] [path to output directory]\n");
+				Console.WriteLine("gengfxdata converts Nintendo's ncgr format to pngs for use with HGSS Sprites\n\nUsage:  gengfxdata [path to unpacked a004] [path to output directory] [total mons]\n");
 				return;
 			}
+
+			totalMons = int.Parse(args[2]);
 
 			System.IO.Directory.CreateDirectory(args[1]);
 
 			// backf backm frontf frontm pal shinypal
-			for (i = 0; i <= (494 * 6) - 1; i += 6)
+			for (i = 0; i <= ((totalMons + 1) * 6) - 1; i += 6)
 			{
 				Bitmap png;
 				int species = i / 6;

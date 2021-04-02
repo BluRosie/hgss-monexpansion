@@ -1,7 +1,9 @@
 # credits
-Mikelan98 and Nomura - synthetic overlay approach
+HamsterSkull, nintendoplz, Kyle-Dove, 2and2makes5, PokeGirl4Ever, Fernandojl, Silver-Skie, TyranitarDark, Getsuei-H, Milomilotic11, Kyt66, kdiamo11, ChocoSrawloid, StyleDude, Gallanty, Gizamimi-Pichu, Kid1513 on deviantart - overworlds
 
-HamsterSkull on deviantart - overworlds
+Dreadwing93 on DeviantArt - backsprites
+
+Mikelan98 and Nomura - synthetic overlay approach and graphics compilation
 
 KazoWAR - BTX-Editor (which is png2btx0 and btx02png)
 
