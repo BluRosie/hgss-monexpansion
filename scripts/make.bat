@@ -14,4 +14,5 @@ call scripts\maketutordata.bat
 call scripts\makeoverworldnarc.bat
 call scripts\makedexareadata.bat
 call scripts\makedexdata.bat
+call scripts\makecries.bat
 call scripts\makesyntheticoverlay.bat
