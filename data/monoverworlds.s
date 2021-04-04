@@ -725,7 +725,7 @@ gSpeciesToOWNum:
 
 .align
 
-.area (NUM_OF_MON_OVERWORLDS + 350) * 6, 0xFF // 350 to account for initial overworld amount
+.area (NUM_OF_MON_OVERWORLDS + 450) * 6, 0xFF // 350 to account for initial overworld amount
 // rearranged to include all the tags in their normal order.  not liking the bullshit organization that game freak made.
 
 
