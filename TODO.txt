@@ -36,9 +36,6 @@ cries (gs_sound_data.sdat)
 
 TODO:
 get gen 5 in
-- icons
-- overworld data
-- sprite offsets
 - dex data
 
 title screen doesn't load music anymore.  need to figure out how nitro studio screwed something up
