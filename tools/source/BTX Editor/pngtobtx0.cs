@@ -16,7 +16,7 @@ namespace BTX_Editor
 		{
 			String pngFile;
 			
-			if (args.Length != 1)
+			if (args.Length != 2)
 			{
 				Console.WriteLine("pngtobtx0 reimports png images into a template btx0 file.\nin this repository, it is used with the template btx0's in rawdata specifically.\nspecifically made for hgss' a081 narc and for usage with hgss-monexpansion.\nUsage:  pngtobtx0 [png file] [btx0 file]");
 			}
@@ -76,7 +76,7 @@ namespace BTX_Editor
 					{
 						this.BTXFile = BTX0.Write(this.BTXFile, shinymap);
 
-						File.WriteAllBytes("a081\\a081_" + pngFile, this.BTXFile);
+						File.WriteAllBytes(args[1], this.BTXFile);
 					}
 					else
 					{
@@ -128,7 +128,7 @@ namespace BTX_Editor
 				{
 					this.BTXFile = BTX0.Write(this.BTXFile, bitmap);
 
-					File.WriteAllBytes("a081\\a081_" + pngFile, this.BTXFile);
+					File.WriteAllBytes(args[1], this.BTXFile);
 				}
 				else
 				{
