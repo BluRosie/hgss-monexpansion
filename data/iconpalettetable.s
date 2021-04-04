@@ -7,7 +7,7 @@
 
 .open "a028_0.bin", 0x023C8000
 
-.orga ((NUM_OF_MONS+1) * 2) + ((NUM_OF_MON_OVERWORLDS + 350) * 6)
+.orga ((NUM_OF_MONS+1) * 2) + ((NUM_OF_MON_OVERWORLDS + 450) * 6)
 
 // the icon palette table maps each icon to which of the 3 icon palettes
 
