@@ -1,5 +1,5 @@
 # hgss-monexpansion
- looking into mon expansion in english heart gold
+ mon expansion in english heart gold
 
 ## build everything
 put your arm9 in the root directory as arm9.bin
@@ -115,15 +115,13 @@ put your overlay 1 in the root directory as overlay9_0001.bin
 
 put your a081 narc in the root folder as a081.narc (the output will overwrite this, but needs it nonetheless)
 
-add templates to the end of the above file, a081.  these can be found in rawdata/overworldtemplates.  for example, if i'm adding in a small pokemon, then i need to add in a smallmon template to the end of the file.
-
-run scripts/makeoverworldnarc.sh in the root directory.  this one currently requires wsl (cygwin or msys2 might work too), sadly
+run scripts/makeoverworldnarc.bat in the root directory.
 
 insert narc a081 over top of what was previously there.  do the same with narc a141, arm9.bin, overlay9_0001.bin, and a028_0.bin (insert it over the 0th file in narc a028).
 
 note that the \*\_shiny.png files are there solely for their palettes
 
-credits to KazoWAR for his tool that he updated in 2018, btx editor.  modified it to be a command line tool
+credits to KazoWAR for his tool that he updated in 2018, btx editor.  modified it to be a command line tool that very specifically works with this project.
 
 ### make the dex area data
 run scripts/makedexareadata.bat in the root directory
