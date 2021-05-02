@@ -5,6 +5,8 @@ Dreadwing93 on DeviantArt - backsprites
 
 Mikelan98 and Nomura - synthetic overlay approach and graphics compilation
 
+BagBoy - dex entries
+
 KazoWAR - BTX-Editor (which is png2btx0 and btx02png)
 
 Gota7 - Nitro Studio
