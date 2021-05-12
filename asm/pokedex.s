@@ -21,7 +21,7 @@ ALWAYS_HAVE_NATIONAL_DEX equ 1
 
 .org 0x021E5AA2 // expand the ram usable by the dex (give about 12 more kb just in case)
     mov r2, #0x64 // old:  mov r2, #0x61
-	// later lsld by 0xC to get space to pass to 0x201A910
+    // later lsld by 0xC to get space to pass to 0x201A910
 
 
 .org 0x021E5AD0 // branch out of the init function
@@ -1097,36 +1097,36 @@ PokedexInit: // rewrite the beginning for new struct size
 .area 0x3C, 0xFF
 
 GetCaughtMonCount:
-	push {r3-r7, lr}
-	mov r6, r0
-	mov r5, #0
-	mov r4, #1
+    push {r3-r7, lr}
+    mov r6, r0
+    mov r5, #0
+    mov r4, #1
 
 @@_loop:
-	mov r0, r6
-	mov r1, r4
-	bl 0x02029FF8 // GetCaughtFlag
-	cmp r0, #1
-	bne @@_increment
-	add r5, #1
+    mov r0, r6
+    mov r1, r4
+    bl 0x02029FF8 // GetCaughtFlag
+    cmp r0, #1
+    bne @@_increment
+    add r5, #1
 
 @@_increment:
-	add r4, #1
-	mov r7, #(SPECIES_ARCEUS + 1) / 2
-	lsl r7, #1
-	cmp r4, r7
-	blt @@_loop
-	add r7, #(SPECIES_VICTINI - SPECIES_ARCEUS - 1)
-	cmp r4, r7
-	blt @@_increment
-	ldr r7, =NUM_OF_MONS
-	cmp r4, r7
-	ble @@_loop
-	mov r0, r5
-	pop {r3-r7, pc}
-	
+    add r4, #1
+    mov r7, #(SPECIES_ARCEUS + 1) / 2
+    lsl r7, #1
+    cmp r4, r7
+    blt @@_loop
+    add r7, #(SPECIES_VICTINI - SPECIES_ARCEUS - 1)
+    cmp r4, r7
+    blt @@_increment
+    ldr r7, =NUM_OF_MONS
+    cmp r4, r7
+    ble @@_loop
+    mov r0, r5
+    pop {r3-r7, pc}
+    
 .pool
-	
+    
 .endarea
 
 
@@ -1137,34 +1137,34 @@ GetCaughtMonCount:
 .area 0x3C, 0xFF
 
 GetSeenMonCount:
-	push {r3-r7, lr}
-	mov r6, r0
-	mov r5, #0
-	mov r4, #1
+    push {r3-r7, lr}
+    mov r6, r0
+    mov r5, #0
+    mov r4, #1
 
 @@_loop:
-	mov r0, r6
-	mov r1, r4
-	bl 0x0202A044 // GetSeenFlag
-	cmp r0, #1
-	bne @@_increment
-	add r5, #1
+    mov r0, r6
+    mov r1, r4
+    bl 0x0202A044 // GetSeenFlag
+    cmp r0, #1
+    bne @@_increment
+    add r5, #1
 
 @@_increment:
-	add r4, #1
-	mov r7, #(SPECIES_ARCEUS + 1) / 2
-	lsl r7, #1
-	cmp r4, r7
-	blt @@_loop
-	add r7, #(SPECIES_VICTINI - SPECIES_ARCEUS - 1)
-	cmp r4, r7
-	blt @@_increment
-	ldr r7, =NUM_OF_MONS
-	cmp r4, r7
-	ble @@_loop
-	mov r0, r5
-	pop {r3-r7, pc}
-	
+    add r4, #1
+    mov r7, #(SPECIES_ARCEUS + 1) / 2
+    lsl r7, #1
+    cmp r4, r7
+    blt @@_loop
+    add r7, #(SPECIES_VICTINI - SPECIES_ARCEUS - 1)
+    cmp r4, r7
+    blt @@_increment
+    ldr r7, =NUM_OF_MONS
+    cmp r4, r7
+    ble @@_loop
+    mov r0, r5
+    pop {r3-r7, pc}
+    
 .pool
 
 .endarea
