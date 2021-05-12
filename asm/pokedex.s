@@ -1092,16 +1092,82 @@ PokedexInit: // rewrite the beginning for new struct size
 
 // edits to GetCaughtMonCount
 
-.org 0x02029E44
+.org 0x02029E0C
 
-.word NUM_OF_MONS
+.area 0x3C, 0xFF
+
+GetCaughtMonCount:
+	push {r3-r7, lr}
+	mov r6, r0
+	mov r5, #0
+	mov r4, #1
+
+@@_loop:
+	mov r0, r6
+	mov r1, r4
+	bl 0x02029FF8 // GetCaughtFlag
+	cmp r0, #1
+	bne @@_increment
+	add r5, #1
+
+@@_increment:
+	add r4, #1
+	mov r7, #(SPECIES_ARCEUS + 1) / 2
+	lsl r7, #1
+	cmp r4, r7
+	blt @@_loop
+	add r7, #(SPECIES_VICTINI - SPECIES_ARCEUS - 1)
+	cmp r4, r7
+	blt @@_increment
+	ldr r7, =NUM_OF_MONS
+	cmp r4, r7
+	ble @@_loop
+	mov r0, r5
+	pop {r3-r7, pc}
+	
+.pool
+	
+.endarea
 
 
 // edits to GetSeenMonCount
 
-.org 0x02029E80
+.org 0x02029E48
 
-.word NUM_OF_MONS
+.area 0x3C, 0xFF
+
+GetSeenMonCount:
+	push {r3-r7, lr}
+	mov r6, r0
+	mov r5, #0
+	mov r4, #1
+
+@@_loop:
+	mov r0, r6
+	mov r1, r4
+	bl 0x0202A044 // GetSeenFlag
+	cmp r0, #1
+	bne @@_increment
+	add r5, #1
+
+@@_increment:
+	add r4, #1
+	mov r7, #(SPECIES_ARCEUS + 1) / 2
+	lsl r7, #1
+	cmp r4, r7
+	blt @@_loop
+	add r7, #(SPECIES_VICTINI - SPECIES_ARCEUS - 1)
+	cmp r4, r7
+	blt @@_increment
+	ldr r7, =NUM_OF_MONS
+	cmp r4, r7
+	ble @@_loop
+	mov r0, r5
+	pop {r3-r7, pc}
+	
+.pool
+
+.endarea
 
 
 // edits to GetRegionalDexCaughtCount
