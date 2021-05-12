@@ -583,7 +583,7 @@
 /* SPECIES_ZEBSTRIKA       */ .halfword 0x110
 /* SPECIES_ROGGENROLA      */ .halfword 0x110
 /* SPECIES_BOLDORE         */ .halfword 0x110
-/* SPECIES_GIGALITH        */ .halfword 0x110
+/* SPECIES_GIGALITH        */ .halfword 0x164
 /* SPECIES_WOOBAT          */ .halfword 0x110
 /* SPECIES_SWOOBAT         */ .halfword 0x110
 /* SPECIES_DRILBUR         */ .halfword 0x110
@@ -602,7 +602,7 @@
 /* SPECIES_LEAVANNY        */ .halfword 0x110
 /* SPECIES_VENIPEDE        */ .halfword 0x110
 /* SPECIES_WHIRLIPEDE      */ .halfword 0x110
-/* SPECIES_SCOLIPEDE       */ .halfword 0x110
+/* SPECIES_SCOLIPEDE       */ .halfword 0x164
 /* SPECIES_COTTONEE        */ .halfword 0x110
 /* SPECIES_WHIMSICOTT      */ .halfword 0x110
 /* SPECIES_PETILIL         */ .halfword 0x110
@@ -626,7 +626,7 @@
 /* SPECIES_ARCHEN          */ .halfword 0x110
 /* SPECIES_ARCHEOPS        */ .halfword 0x110
 /* SPECIES_TRUBBISH        */ .halfword 0x110
-/* SPECIES_GARBODOR        */ .halfword 0x110
+/* SPECIES_GARBODOR        */ .halfword 0x164
 /* SPECIES_ZORUA           */ .halfword 0x110
 /* SPECIES_ZOROARK         */ .halfword 0x110
 /* SPECIES_MINCCINO        */ .halfword 0x110
@@ -650,7 +650,7 @@
 /* SPECIES_FOONGUS         */ .halfword 0x110
 /* SPECIES_AMOONGUSS       */ .halfword 0x110
 /* SPECIES_FRILLISH        */ .halfword 0x110
-/* SPECIES_JELLICENT       */ .halfword 0x110
+/* SPECIES_JELLICENT       */ .halfword 0x165
 /* SPECIES_ALOMOMOLA       */ .halfword 0x110
 /* SPECIES_JOLTIK          */ .halfword 0x110
 /* SPECIES_GALVANTULA      */ .halfword 0x110
@@ -680,7 +680,7 @@
 /* SPECIES_MIENSHAO        */ .halfword 0x110
 /* SPECIES_DRUDDIGON       */ .halfword 0x110
 /* SPECIES_GOLETT          */ .halfword 0x110
-/* SPECIES_GOLURK          */ .halfword 0x110
+/* SPECIES_GOLURK          */ .halfword 0x130
 /* SPECIES_PAWNIARD        */ .halfword 0x110
 /* SPECIES_BISHARP         */ .halfword 0x110
 /* SPECIES_BOUFFALANT      */ .halfword 0x110
@@ -700,10 +700,10 @@
 /* SPECIES_VIRIZION        */ .halfword 0x110
 /* SPECIES_TORNADUS        */ .halfword 0x110
 /* SPECIES_THUNDURUS       */ .halfword 0x110
-/* SPECIES_RESHIRAM        */ .halfword 0x110
-/* SPECIES_ZEKROM          */ .halfword 0x110
+/* SPECIES_RESHIRAM        */ .halfword 0x1C3
+/* SPECIES_ZEKROM          */ .halfword 0x1C3
 /* SPECIES_LANDORUS        */ .halfword 0x110
-/* SPECIES_KYUREM          */ .halfword 0x110
+/* SPECIES_KYUREM          */ .halfword 0x1C3
 /* SPECIES_KELDEO          */ .halfword 0x110
 /* SPECIES_MELOETTA        */ .halfword 0x110
 /* SPECIES_GENESECT        */ .halfword 0x110

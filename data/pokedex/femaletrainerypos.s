@@ -583,7 +583,7 @@
 /* SPECIES_ZEBSTRIKA       */ .halfword 8
 /* SPECIES_ROGGENROLA      */ .halfword 8
 /* SPECIES_BOLDORE         */ .halfword 8
-/* SPECIES_GIGALITH        */ .halfword 8
+/* SPECIES_GIGALITH        */ .halfword 16
 /* SPECIES_WOOBAT          */ .halfword 8
 /* SPECIES_SWOOBAT         */ .halfword 8
 /* SPECIES_DRILBUR         */ .halfword 8
@@ -602,7 +602,7 @@
 /* SPECIES_LEAVANNY        */ .halfword 8
 /* SPECIES_VENIPEDE        */ .halfword 8
 /* SPECIES_WHIRLIPEDE      */ .halfword 8
-/* SPECIES_SCOLIPEDE       */ .halfword 8
+/* SPECIES_SCOLIPEDE       */ .halfword 16
 /* SPECIES_COTTONEE        */ .halfword 8
 /* SPECIES_WHIMSICOTT      */ .halfword 8
 /* SPECIES_PETILIL         */ .halfword 8
@@ -650,7 +650,7 @@
 /* SPECIES_FOONGUS         */ .halfword 8
 /* SPECIES_AMOONGUSS       */ .halfword 8
 /* SPECIES_FRILLISH        */ .halfword 8
-/* SPECIES_JELLICENT       */ .halfword 8
+/* SPECIES_JELLICENT       */ .halfword 18
 /* SPECIES_ALOMOMOLA       */ .halfword 8
 /* SPECIES_JOLTIK          */ .halfword 8
 /* SPECIES_GALVANTULA      */ .halfword 8
@@ -680,7 +680,7 @@
 /* SPECIES_MIENSHAO        */ .halfword 8
 /* SPECIES_DRUDDIGON       */ .halfword 8
 /* SPECIES_GOLETT          */ .halfword 8
-/* SPECIES_GOLURK          */ .halfword 8
+/* SPECIES_GOLURK          */ .halfword 13
 /* SPECIES_PAWNIARD        */ .halfword 8
 /* SPECIES_BISHARP         */ .halfword 8
 /* SPECIES_BOUFFALANT      */ .halfword 8
@@ -700,10 +700,10 @@
 /* SPECIES_VIRIZION        */ .halfword 8
 /* SPECIES_TORNADUS        */ .halfword 8
 /* SPECIES_THUNDURUS       */ .halfword 8
-/* SPECIES_RESHIRAM        */ .halfword 8
-/* SPECIES_ZEKROM          */ .halfword 8
+/* SPECIES_RESHIRAM        */ .halfword 22
+/* SPECIES_ZEKROM          */ .halfword 22
 /* SPECIES_LANDORUS        */ .halfword 8
-/* SPECIES_KYUREM          */ .halfword 8
+/* SPECIES_KYUREM          */ .halfword 22
 /* SPECIES_KELDEO          */ .halfword 8
 /* SPECIES_MELOETTA        */ .halfword 8
 /* SPECIES_GENESECT        */ .halfword 8

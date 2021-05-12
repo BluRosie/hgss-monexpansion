@@ -599,7 +599,7 @@
 /* SPECIES_SAWK            */ .halfword 0x0F3
 /* SPECIES_SEWADDLE        */ .halfword 0x1F8
 /* SPECIES_SWADLOON        */ .halfword 0x1A4
-/* SPECIES_LEAVANNY        */ .halfword 0x0F6
+/* SPECIES_LEAVANNY        */ .halfword 0x139
 /* SPECIES_VENIPEDE        */ .halfword 0x1A7
 /* SPECIES_WHIRLIPEDE      */ .halfword 0x0F6
 /* SPECIES_SCOLIPEDE       */ .halfword 0x0DE
@@ -633,7 +633,7 @@
 /* SPECIES_CINCCINO        */ .halfword 0x1A4
 /* SPECIES_GOTHITA         */ .halfword 0x1A7
 /* SPECIES_GOTHORITA       */ .halfword 0x156
-/* SPECIES_GOTHITELLE      */ .halfword 0x0DE
+/* SPECIES_GOTHITELLE      */ .halfword 0x118
 /* SPECIES_SOLOSIS         */ .halfword 0x1F8
 /* SPECIES_DUOSION         */ .halfword 0x17C
 /* SPECIES_REUNICLUS       */ .halfword 0x100
@@ -698,11 +698,11 @@
 /* SPECIES_COBALION        */ .halfword 0x100
 /* SPECIES_TERRAKION       */ .halfword 0x100
 /* SPECIES_VIRIZION        */ .halfword 0x100
-/* SPECIES_TORNADUS        */ .halfword 0x0DE
-/* SPECIES_THUNDURUS       */ .halfword 0x0DE
+/* SPECIES_TORNADUS        */ .halfword 0x100
+/* SPECIES_THUNDURUS       */ .halfword 0x100
 /* SPECIES_RESHIRAM        */ .halfword 0x100
 /* SPECIES_ZEKROM          */ .halfword 0x0DE
-/* SPECIES_LANDORUS        */ .halfword 0x0DE
+/* SPECIES_LANDORUS        */ .halfword 0x100
 /* SPECIES_KYUREM          */ .halfword 0x0DE
 /* SPECIES_KELDEO          */ .halfword 0x0F3
 /* SPECIES_MELOETTA        */ .halfword 0x17C
