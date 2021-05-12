@@ -25,6 +25,25 @@
 .halfword SPECIES_GLACEON
 .halfword SPECIES_MAMOSWINE
 .halfword SPECIES_FROSLASS
+.halfword SPECIES_VANILLITE
+.halfword SPECIES_VANILLISH
+.halfword SPECIES_VANILLUXE
+.halfword SPECIES_CUBCHOO
+.halfword SPECIES_BEARTIC
+.halfword SPECIES_CRYOGONAL
+.halfword SPECIES_KYUREM
+//.halfword SPECIES_AMAURA
+//.halfword SPECIES_AURORUS
+//.halfword SPECIES_BERGMITE
+//.halfword SPECIES_AVALUGG
+//.halfword SPECIES_CRABOMINABLE
+//.halfword SPECIES_MR_RIME
+//.halfword SPECIES_SNOM
+//.halfword SPECIES_FROSMOTH
+//.halfword SPECIES_EISCUE
+//.halfword SPECIES_ARCTOZOLT
+//.halfword SPECIES_ARCTOVISH
+//.halfword SPECIES_GLASTRIER
 
 
 .close
