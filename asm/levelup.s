@@ -79,8 +79,8 @@
     ldr r5, [r7, r0] // load full word
 
 .org 0x020917F0
-    lsl r0, r2, #2
-    str r6, [r4, r0]
+    lsl r0, r2, #1
+    strh r6, [r4, r0]
 
 .org 0x020917F6
     mov r1, #0xFF // 0xFF0000 mask all that is fr necessary
@@ -89,18 +89,32 @@
     asr r3, r1, #16
 
 .org 0x02091804
-    mov r1, r6 // mask is 0xFFFF and need not be different
-    and r1, r5
-    str r1, [r7, r0]
+    mov r1, r6
+    and r1, r5 // mask is 0xFFFF and need not be different
+    lsr r0, #1
+    strh r1, [r7, r0]
+    lsl r0, #1
     ldr r3, [r7, r0]
+    mov r1, #0
+    add r6, sp, #0x10 // currMoveSet
+    
+_moveLoop:
+    lsl r5, r1, #1
+    ldrh r5, [r6, r5]
+    cmp r3, r5
+    beq 0x02091822
+    add r1, #1
+    cmp r1, #4
+    bcc _moveLoop
+    
 
 .org 0x0209182C
     lsl r5, r1, #2
     ldr r5, [r4, r5]
 
 .org 0x02091844
-    lsl r0, r2, #2
-    str r1, [r4, r0]
+    lsl r0, r2, #1
+    strh r1, [r4, r0]
 
 .org 0x02091858
     cmp r0, #LEARNSET_TOTAL_MOVES
