@@ -382,3 +382,7 @@ TUTOR_SKY_ATTACK           equ 1 << 16
 TUTOR_BLOCK                equ 1 << 17
 TUTOR_BUG_BITE             equ 1 << 18
 TUTOR_HEADBUTT             equ 1 << 19
+
+// learnsets
+
+LEARNSET_TOTAL_MOVES equ 31 // 30+terminate
