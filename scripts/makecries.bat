@@ -15,3 +15,4 @@ for /l %%F in (100, 1, 699) do (
  swav2swar swav\%%F.swav swar\%%F.swar))
 cd ..\
 tools\armips asm\cries.s
+copy rawdata\gs_sound_data.sdat "filesys\data\data\sound\gs_sound_data.sdat"

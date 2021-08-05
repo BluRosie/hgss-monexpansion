@@ -10,3 +10,4 @@ text/tmp_*/*
 *.swar
 
 !rawdata\gs_sound_data.sdat
+*.sav
