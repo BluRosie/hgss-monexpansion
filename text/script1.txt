@@ -1,2 +1,2 @@
 base.nds
-q
+patch texts.xml

@@ -1,3 +1,4 @@
+mkdir a028
 call scripts\makebabymons.bat
 call scripts\makeeggmoves.bat
 call scripts\makeevodata.bat

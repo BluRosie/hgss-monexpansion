@@ -161,7 +161,7 @@
 
 .macro babymon,species,baby
 	.if species == 0
-		.create "pms.narc",0
+		.create "filesys\data\poketool\personal\pms.narc",0
 	.endif
 
 	.org (species * 2)
@@ -178,7 +178,7 @@
 
 .macro tutordata,species,data1,data2
 	.if species == 1
-		.create "waza_oshie.narc",0
+		.create "filesys/data/fielddata/wazaoshie/waza_oshie.bin",0
 	.endif
 
 	.org ((species - 1) * 8)
@@ -292,48 +292,48 @@
 .macro specialareas,monnum,timeofday
 	.if (timeofday == 0) // morning time
 		.if (2 + monnum) < 10
-			.create "a133/a133_000" + tostring(2 + monnum),0
+			.create "a133/3_000" + tostring(2 + monnum),0
 		.elseif (2 + monnum) < 100
-			.create "a133/a133_00" + tostring(2 + monnum),0
+			.create "a133/3_00" + tostring(2 + monnum),0
 		.elseif (2 + monnum) < 1000
-			.create "a133/a133_0" + tostring(2 + monnum),0
+			.create "a133/3_0" + tostring(2 + monnum),0
 		.else
-			.create "a133/a133_" + tostring(2 + monnum),0
+			.create "a133/3_" + tostring(2 + monnum),0
 		.endif
 	.elseif (timeofday == 1) // day time
 		.if (2 + monnum + NUM_OF_MONS) < 10
-			.create "a133/a133_000" + tostring(2 + monnum + NUM_OF_MONS),0
+			.create "a133/3_000" + tostring(2 + monnum + NUM_OF_MONS),0
 		.elseif (2 + monnum + NUM_OF_MONS) < 100
-			.create "a133/a133_00" + tostring(2 + monnum + NUM_OF_MONS),0
+			.create "a133/3_00" + tostring(2 + monnum + NUM_OF_MONS),0
 		.elseif (2 + monnum + NUM_OF_MONS) < 1000
-			.create "a133/a133_0" + tostring(2 + monnum + NUM_OF_MONS),0
+			.create "a133/3_0" + tostring(2 + monnum + NUM_OF_MONS),0
 		.else
-			.create "a133/a133_" + tostring(2 + monnum + NUM_OF_MONS),0
+			.create "a133/3_" + tostring(2 + monnum + NUM_OF_MONS),0
 		.endif
 	.elseif (timeofday == 2) // night time
 		.if (2 + monnum + (2*NUM_OF_MONS)) < 10
-			.create "a133/a133_000" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
+			.create "a133/3_000" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
 		.elseif (2 + monnum + (2*NUM_OF_MONS)) < 100
-			.create "a133/a133_00" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
+			.create "a133/3_00" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
 		.elseif (2 + monnum + (2*NUM_OF_MONS)) < 1000
-			.create "a133/a133_0" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
+			.create "a133/3_0" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
 		.else
-			.create "a133/a133_" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
+			.create "a133/3_" + tostring(2 + monnum + (2*NUM_OF_MONS)),0
 		.endif
 	.else // timeofday == 3
-		.create "a133/a133_" + tostring(2 + monnum + (6*NUM_OF_MONS)),0
+		.create "a133/3_" + tostring(2 + monnum + (6*NUM_OF_MONS)),0
 	.endif
 .endmacro
 
 .macro routesandcities,monnum,timeofday
 	.if (timeofday == 0) // morning time
-		.create "a133/a133_" + tostring(2 + monnum + (3*NUM_OF_MONS)),0
+		.create "a133/3_" + tostring(2 + monnum + (3*NUM_OF_MONS)),0
 	.elseif (timeofday == 1) // day time
-		.create "a133/a133_" + tostring(2 + monnum + (4*NUM_OF_MONS)),0
+		.create "a133/3_" + tostring(2 + monnum + (4*NUM_OF_MONS)),0
 	.elseif (timeofday == 2) // night time
-		.create "a133/a133_" + tostring(2 + monnum + (5*NUM_OF_MONS)),0
+		.create "a133/3_" + tostring(2 + monnum + (5*NUM_OF_MONS)),0
 	.else // timeofday == 3
-		.create "a133/a133_" + tostring(2 + monnum + (7*NUM_OF_MONS)),0
+		.create "a133/3_" + tostring(2 + monnum + (7*NUM_OF_MONS)),0
 	.endif
 .endmacro
 

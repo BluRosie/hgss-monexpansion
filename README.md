@@ -2,6 +2,28 @@
  mon expansion in english heart gold
 
 ## build everything
+ now you just have to put your heart gold rom in the root directory as base.nds
+ 
+ from there, run:
+ 
+ ```
+ scripts\extract
+ scripts\decompress
+ if you have a synthetic overlay, run scripts\getsynthoverlay.bat.  otherwise it will be handled automatically.
+ scripts\make
+ scripts\compile
+ ```
+
+ this will take your rom in whatever state of completion that it is and extract and decompress all the overlays.  from there, it will replace the narcs and edit the overlays necessary to fully implement pokemon dex expansion.
+ 
+ legacy instructions for the old way are included below.  each individual part has its own script, but you are no longer required to supply any files other than the rom as base.nds
+ 
+ the cries have yet to have a better solution, so it is not spoilered below.  however, a gs_sound_data will be provided for insertion.
+
+<details>
+ <summary>legacy instructions</summary>
+
+## build everything
 put your arm9 in the root directory as arm9.bin
 
 put your overlay 1 in the root directory as overlay9_0001.bin
@@ -140,6 +162,8 @@ insert narc a133 over top of what was previously there
 run scripts/makedexdata.bat in the root directory
 
 insert narc a214 over top of what was previously there
+
+</details>
 
 ### make all the mon cries
 currently, the sound directory contains wav files of each of the pokemon gens 1-5.  edit as you please

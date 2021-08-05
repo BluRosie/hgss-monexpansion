@@ -1,7 +1,7 @@
 .nds
 .thumb
 
-.open "overlay9_0001.bin", 0x021E5900
+.open "filesys/overlay/overlay_0001.bin", 0x021E5900
 
 .org 0x021F73C4
 
@@ -23,7 +23,7 @@
 
 // limiter for hall of fame overworlds
 
-.open "overlay9_0063.bin", 0x0221BE20
+.open "filesys/overlay/overlay_0063.bin", 0x0221BE20
 
 .org 0x0221E448
 
@@ -34,7 +34,7 @@
 
 // limiter for pokeathlon overworlds
 
-.open "overlay9_0096.bin", 0x021E5900
+.open "filesys/overlay/overlay_0096.bin", 0x021E5900
 
 .org 0x021E91FC
 
@@ -43,7 +43,7 @@
 .close
 
 
-.open "arm9.bin", 0x02000000
+.open "filesys/arm9.bin", 0x02000000
 
 .org 0x02069D70
 

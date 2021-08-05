@@ -3,7 +3,7 @@
 
 .include "include/monnums.s"
 
-.open "arm9.bin", 0x2000000
+.open "filesys/arm9.bin", 0x2000000
 
 // r1 = formid
 // r2 = free

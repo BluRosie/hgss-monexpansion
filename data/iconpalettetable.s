@@ -5,7 +5,11 @@
 .include "include/monnums.s"
 .include "asm/icons.s"
 
-.open "a028_0.bin", 0x023C8000
+.if (fileexists("a028/8_0"))
+    .open "a028/8_0", 0x023C8000
+.else
+    .create "a028/8_0", 0x023C8000
+.endif
 
 .orga ((NUM_OF_MONS+1) * 2) + ((NUM_OF_MON_OVERWORLDS + 450) * 6)
 

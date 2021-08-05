@@ -3,7 +3,7 @@
 
 ALWAYS_HAVE_NATIONAL_DEX equ 1
 
-.open "overlay9_0018.bin", 0x021E5900
+.open "filesys/overlay/overlay_0018.bin", 0x021E5900
 
 
 // here, we need to allocate memory space for the two new poke_lists and store them at workspace+0x878 and workspace+0x1030
@@ -806,7 +806,7 @@ _21F892A:
 .close
 
 
-.open "arm9.bin", 0x2000000
+.open "filesys/arm9.bin", 0x2000000
 
 // r0 = sort list probably
 // r1 = species
@@ -970,7 +970,7 @@ get_dex_num_patch:
 // we then need to repoint 0x84 within that structure to 0x340 (repoint the caught flags)
 // 0xC4 obviously then needs to be 0x3C0
 
-.open "arm9.bin", 0x02000000
+.open "filesys/arm9.bin", 0x02000000
 
 .org 0x020293E0
 

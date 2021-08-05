@@ -5,7 +5,7 @@
 .include "include/constants.s"
 .include "include/monnums.s"
 
-.open "a180_0.bin", "a180/a180_0.bin", 0
+.open "a180/0_0", 0
 
 // the in-battle sprite offsets for each pokemon.  also included are the shadow coords
 

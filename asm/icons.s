@@ -1,7 +1,7 @@
 .nds
 .thumb
 
-.open "arm9.bin", 0x02000000
+.open "filesys/arm9.bin", 0x02000000
 
 // update the limiters
 

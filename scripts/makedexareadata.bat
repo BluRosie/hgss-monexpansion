@@ -1,5 +1,4 @@
-mkdir a133
-xcopy "rawdata\first files from a133\*" "a133"
+tools\narchive extract filesys\data\a\1\3\3 -o a133 -nf
 tools\armips data\pokedex\areadata.s
-tools\narchive create a133.narc a133 -nf
+tools\narchive create filesys\data\a\1\3\3 a133 -nf
 rmdir /q /s a133

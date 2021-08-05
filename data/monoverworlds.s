@@ -6,7 +6,11 @@
 .include "include/monnums.s"
 .include "asm/overworlds.s"
 
-.open "a028_0.bin", 0x023C8000
+.if (fileexists("a028/8_0"))
+    .open "a028/8_0", 0x023C8000
+.else
+    .create "a028/8_0", 0x023C8000
+.endif
 
 .area (NUM_OF_MONS+1) * 2, 0xFF //+1 to account for SPECIES_NONE
 
@@ -1497,7 +1501,7 @@ gOWTagToFileNum:  // skip down a bit to see the parts that are specifically for 
 .close
 
 
-.open "arm9.bin", 0x02000000
+.open "filesys/arm9.bin", 0x02000000
 
 .org 0x020FECAE
 

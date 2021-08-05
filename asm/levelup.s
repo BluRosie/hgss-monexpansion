@@ -6,7 +6,7 @@
 // all the edits that should be necessary to change the level up moves to be u16 level, u16 move
 // also expand possible moves in learnset to be more than 21
 
-.open "arm9.bin", 0x02000000
+.open "filesys/arm9.bin", 0x02000000
 
 .org 0x020712E0
     mov r1, #4*LEARNSET_TOTAL_MOVES

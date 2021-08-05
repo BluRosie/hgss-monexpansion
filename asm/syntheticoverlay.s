@@ -3,7 +3,7 @@
 
 // big thanks to mikelan98 and nomura for this.  really cool stuff
 
-.open "arm9.bin", 0x02000000
+.open "filesys/arm9.bin", 0x02000000
 
 .org 0x02000CD0 // branch from Main(), run once
  

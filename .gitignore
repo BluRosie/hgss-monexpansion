@@ -3,7 +3,7 @@
 filetomatch
 *.narc
 *.bin
-text/tmp_base/*
+text/tmp_*/*
 *.nds
 *.sdat
 *.swav
