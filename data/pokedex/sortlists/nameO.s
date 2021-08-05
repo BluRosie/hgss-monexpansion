@@ -8,6 +8,7 @@
 .halfword SPECIES_OMANYTE
 .halfword SPECIES_OMASTAR
 .halfword SPECIES_ONIX
+.halfword SPECIES_OSHAWOTT
 
 
 .close

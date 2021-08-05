@@ -26,6 +26,39 @@
 .halfword SPECIES_DRAPION
 .halfword SPECIES_WEAVILE
 .halfword SPECIES_DARKRAI
+.halfword SPECIES_PURRLOIN
+.halfword SPECIES_LIEPARD
+.halfword SPECIES_SANDILE
+.halfword SPECIES_KROKOROK
+.halfword SPECIES_KROOKODILE
+.halfword SPECIES_SCRAGGY
+.halfword SPECIES_SCRAFTY
+.halfword SPECIES_ZORUA
+.halfword SPECIES_ZOROARK
+.halfword SPECIES_PAWNIARD
+.halfword SPECIES_BISHARP
+.halfword SPECIES_VULLABY
+.halfword SPECIES_MANDIBUZZ
+.halfword SPECIES_DEINO
+.halfword SPECIES_ZWEILOUS
+.halfword SPECIES_HYDREIGON
+//.halfword SPECIES_GRENINJA
+//.halfword SPECIES_PANGORO
+//.halfword SPECIES_INKAY
+//.halfword SPECIES_MALAMAR
+//.halfword SPECIES_YVELTAL
+//.halfword SPECIES_HOOPA
+//.halfword SPECIES_INCINEROAR
+//.halfword SPECIES_GUZZORD
+//.halfword SPECIES_NICKIT
+//.halfword SPECIES_THIEVUL
+//.halfword SPECIES_IMPIDIMP
+//.halfword SPECIES_MORGREM
+//.halfword SPECIES_GRIMMSNARL
+//.halfword SPECIES_OBSTAGOON
+//.halfword SPECIES_MORPEKO
+//.halfword SPECIES_URSHIFU
+//.halfword SPECIES_ZARUDE
 
 
 .close

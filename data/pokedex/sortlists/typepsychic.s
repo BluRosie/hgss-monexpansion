@@ -57,6 +57,42 @@
 .halfword SPECIES_AZELF
 .halfword SPECIES_CRESSELIA
 .halfword SPECIES_VICTINI
+.halfword SPECIES_MUNNA
+.halfword SPECIES_MUSHARNA
+.halfword SPECIES_WOOBAT
+.halfword SPECIES_SWOOBAT
+.halfword SPECIES_SIGILYPH
+.halfword SPECIES_GOTHITA
+.halfword SPECIES_GOTHORITA
+.halfword SPECIES_GOTHITELLE
+.halfword SPECIES_SOLOSIS
+.halfword SPECIES_DUOSION
+.halfword SPECIES_REUNICLUS
+.halfword SPECIES_ELGYEM
+.halfword SPECIES_BEHEEYEM
+.halfword SPECIES_MELOETTA
+//.halfword SPECIES_DELPHOX
+//.halfword SPECIES_ESPURR
+//.halfword SPECIES_MEOWSTIC
+//.halfword SPECIES_INKAY
+//.halfword SPECIES_MALAMAR
+//.halfword SPECIES_HOOPA
+//.halfword SPECIES_ORANGURU
+//.halfword SPECIES_BRUXISH
+//.halfword SPECIES_TAPU_LELE
+//.halfword SPECIES_COSMOG
+//.halfword SPECIES_COSMOEM
+//.halfword SPECIES_SOLGALEO
+//.halfword SPECIES_LUNALA
+//.halfword SPECIES_NECROZMA
+//.halfword SPECIES_DOTTLER
+//.halfword SPECIES_ORBEETLE
+//.halfword SPECIES_HATENNA
+//.halfword SPECIES_HATTREM
+//.halfword SPECIES_HATTERENE
+//.halfword SPECIES_MR_RIME
+//.halfword SPECIES_INDEEDEE
+//.halfword SPECIES_CALYREX
 
 
 .close

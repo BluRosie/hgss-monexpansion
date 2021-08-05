@@ -35,7 +35,10 @@ cries (gs_sound_data.sdat)
 
 
 TODO:
-title screen doesn't load music anymore.  need to expand ram used in title screen?
+get gen 5 in
+- dex data
+
+title screen doesn't load music anymore.  need to figure out how nitro studio screwed something up
 search results still process as something even when loading nothing
 - visual and completely harmless
 
