@@ -10,7 +10,7 @@ for /l %%F in (1000, 1, 1500) do (
  if exist "a081\1_1000" (
   if exist "graphics\overworlds\%%F.png" tools\pngtobtx0 graphics\overworlds\%%F.png a081\1_%%F
  ) else (
-  if exist "graphics\overworlds\%%F.png" tools\pngtobtx0 graphics\overworlds\%%F.png a081\1_%%F 
+  if exist "graphics\overworlds\%%F.png" tools\pngtobtx0 graphics\overworlds\%%F.png a081\b1_%%F 
  )
 )
 tools\narchive create filesys\data\a\0\8\1 a081 -nf
