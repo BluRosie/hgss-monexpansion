@@ -1,9 +1,9 @@
 tools\narchive extract filesys\data\a\0\8\1 -o a081 -nf
 for /l %%F in (297, 1, 999) do (
  if exist "a081\1_1000" (
-  if exist "graphics\overworlds\%%F.png" tools\pngtobtx0 graphics\overworlds\%%F.png a081\1_0%%F
+  if exist "graphics\overworlds\0%%F.png" tools\pngtobtx0 graphics\overworlds\0%%F.png a081\1_0%%F
  ) else (
-  if exist "graphics\overworlds\%%F.png" tools\pngtobtx0 graphics\overworlds\%%F.png a081\1_%%F
+  if exist "graphics\overworlds\0%%F.png" tools\pngtobtx0 graphics\overworlds\0%%F.png a081\1_%%F
  )
 )
 for /l %%F in (1000, 1, 1500) do (
