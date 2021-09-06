@@ -1,6 +1,7 @@
 .nds
 .thumb
 
+.include "include/config.s"
 .include "include/constants.s"
 .include "include/monnums.s"
 .include "asm/icons.s"
@@ -11,7 +12,7 @@
     .create "a028/8_0", 0x023C8000
 .endif
 
-.orga ((NUM_OF_MONS+1) * 2) + ((NUM_OF_MON_OVERWORLDS + 450) * 6)
+.orga START_ADDRESS + ((NUM_OF_MONS+1) * 2) + ((NUM_OF_MON_OVERWORLDS + 450) * 6)
 
 // the icon palette table maps each icon to which of the 3 icon palettes
 
