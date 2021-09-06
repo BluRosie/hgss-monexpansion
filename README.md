@@ -3,6 +3,8 @@
 
 ## build everything
  now you just have to put your heart gold rom in the root directory as base.nds
+
+ then, open include\config.s and take a look at the options available to you.  each has a description that should guide you in using it.
  
  from there, run:
  

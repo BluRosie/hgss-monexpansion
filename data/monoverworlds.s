@@ -1,6 +1,7 @@
 .nds
 .thumb
 
+.include "include/config.s"
 .include "include/constants.s"
 .include "include/macros.s"
 .include "include/monnums.s"
@@ -11,6 +12,8 @@
 .else
     .create "a028/8_0", 0x023C8000
 .endif
+
+.orga START_ADDRESS
 
 .area (NUM_OF_MONS+1) * 2, 0xFF //+1 to account for SPECIES_NONE
 
