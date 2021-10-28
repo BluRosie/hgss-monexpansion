@@ -15,11 +15,12 @@ namespace PlatinumSpriteEditor
 {
 	class MainForm
 	{		
-		Rectangle rect;
+		static Rectangle rect;
 
-		public MainForm(string[] args)
+		public static void Main(string[] args)
 		{
 			int i, totalMons;
+			int palSavedNorm, palSavedShiny, zero;
 
 			int index;
 
@@ -44,6 +45,8 @@ namespace PlatinumSpriteEditor
 			for (i = 0; i <= totalMons; i++)
 			{
 				index = i * 6;
+				palSavedNorm = 0;
+				palSavedShiny = 0;
 
 				ncgr = System.IO.File.OpenWrite(args[1] + "\\a004_" + index.ToString("D4")); // female back sprite
 				nclr = System.IO.File.OpenWrite(args[1] + "\\a004_" + (index + 5).ToString("D4")); // shiny pal
@@ -61,6 +64,7 @@ namespace PlatinumSpriteEditor
 				{
 					SaveBin(ncgr, png);
 					SavePal(nclr, StandardizeColors(png));
+					palSavedShiny = 1;
 				}
 
 				ncgr = System.IO.File.OpenWrite(args[1] + "\\a004_" + (index + 1).ToString("D4")); // male back sprite
@@ -78,9 +82,10 @@ namespace PlatinumSpriteEditor
 				if (png != null)
 				{
 					SaveBin(ncgr, png);
+					if (palSavedShiny <= 0)
 					SavePal(nclr, StandardizeColors(png));
 				}
-
+					
 				ncgr = System.IO.File.OpenWrite(args[1] + "\\a004_" + (index + 2).ToString("D4")); // female front sprite
 				nclr = System.IO.File.OpenWrite(args[1] + "\\a004_" + (index + 4).ToString("D4")); // normal pal
 
@@ -97,6 +102,7 @@ namespace PlatinumSpriteEditor
 				{
 					SaveBin(ncgr, png);
 					SavePal(nclr, StandardizeColors(png));
+					palSavedNorm = 1;
 				}
 
 				ncgr = System.IO.File.OpenWrite(args[1] + "\\a004_" + (index + 3).ToString("D4")); // male front sprite
@@ -114,12 +120,13 @@ namespace PlatinumSpriteEditor
 				if (png != null)
 				{
 					SaveBin(ncgr, png);
+					if (palSavedNorm <= 0)
 					SavePal(nclr, StandardizeColors(png));
 				}
 			}
 		}
 		
-		ColorPalette StandardizeColors(Bitmap image)
+		static ColorPalette StandardizeColors(Bitmap image)
 		{
 			ColorPalette pal = image.Palette;
 			bool OffColor = false;
@@ -144,7 +151,7 @@ namespace PlatinumSpriteEditor
 			return pal;
 		}
 				
-		void SaveBin(FileStream fs, Bitmap source)
+		static void SaveBin(FileStream fs, Bitmap source)
 		{
 			BinaryWriter binaryWriter = new BinaryWriter(fs);
 			rect = new Rectangle(0, 0, 160, 80);
@@ -185,7 +192,7 @@ namespace PlatinumSpriteEditor
 			}
 		}
 
-		void SavePal(FileStream fs, ColorPalette palette)
+		static void SavePal(FileStream fs, ColorPalette palette)
 		{
 			byte[] buffer = new byte[40]
 			{82, 76, 67, 78, 255, 254, 0, 1, 72, 0, 0, 0, 16, 0, 1, 0, 84, 84, 76, 80, 56, 0, 0, 0, 4, 0, 10, 0, 0, 0, 0, 0, 32, 0, 0, 0, 16, 0, 0, 0};
